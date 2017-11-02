@@ -14,7 +14,7 @@ select.select(obj => {
 
 	var url = getUrl(id);
 
-	console.log("Requesting candidates from the " + state + " election of " + year + "...");
+	console.log("Requesting candidates with serious criminal cases from the " + state + " election of " + year + "...");
 
 	request(url, (err, res, body) => {
 		if (err || res.statusCode !== 200) {
@@ -52,15 +52,16 @@ select.select(obj => {
 						}
 
 					});
-
+					
 					candidate.net_assets = candidate.assets - candidate.liabilities;
+					candidate.serious_criminal_cases = true;
 					var constituency_info = lookupAc(id, candidate.constituency);
 					var keys = Object.keys(constituency_info);
 					keys.forEach(key => {
 						candidate[key] = constituency_info[key];
 					});
 					out.push(candidate);
-					if (row_index == rows.length - 1) io.writeDataSync("data/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
+					if (row_index == rows.length - 1) io.writeDataSync("data/" + jz.str.toSlugCase(state) + "_" + year + "_serious_cases.csv", out);
 
 				});
 			}
@@ -73,7 +74,7 @@ function lookupAc(id, constituency){
 	return _.where(lookup, {constituency: constituency})[0];
 }
 function getUrl(id){
-	return "http://myneta.info/" + id + "/index.php?action=summary&subAction=candidates_analyzed&sort=candidate#summary"
+	return "http://myneta.info/" + id + "/index.php?action=summary&subAction=serious_crime&sort=candidate#summary"
 }
 function getNumberFromCol(txt){
 	return +jz.str.replaceAll(txt.split("Rs")[1].split(" ~")[0], ",", "").trim();
