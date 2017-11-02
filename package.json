@@ -1,0 +1,28 @@
+{
+  "name": "adr-election-node",
+  "version": "1.0.0",
+  "description": "Scrape data about an election from ADR (similar to adr-data but in Node)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HindustanTimesLabs/adr-election-node.git"
+  },
+  "author": "Harry Stevens <harryjosephstevens@gmail.com> (http://harryjstevens.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HindustanTimesLabs/adr-election-node/issues"
+  },
+  "homepage": "https://github.com/HindustanTimesLabs/adr-election-node#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "indian-ocean": "^3.0.2",
+    "jeezy": "^1.12.0",
+    "party-time": "^3.0.3",
+    "prompt": "^1.0.0",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3"
+  }
+}
