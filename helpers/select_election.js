@@ -1,5 +1,4 @@
 // callback returns obj with state, year, and id
-
 module.exports.select = function(callback){
 	var prompt = require("prompt"),
 		_ = require("underscore"),
@@ -13,7 +12,7 @@ module.exports.select = function(callback){
 		properties: {
 			state: {
 				required: true,
-				message: "What state do you want? Your options are " + showList(states)
+				message: "What state do you want? Your options are:\n" + showList(states)
 			}
 		}
 	}
@@ -33,7 +32,7 @@ module.exports.select = function(callback){
 			properties: {
 				year: {
 					required: true,
-					message: "You entered " + state + ". Which election year? Your options are " + showList(years)
+					message: "You entered " + state + ". Which election year? Your options are:\n" + showList(years)
 				}
 			}
 		}
@@ -59,6 +58,6 @@ module.exports.select = function(callback){
 	return _.chain(data).pluck(variable).uniq().value();
 	}
 	function showList(data){
-		return data.map(d => "'" + d + "'").sort().join(", ")
+		return data.sort().join("\n")
 	}
 }
