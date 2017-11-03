@@ -10,11 +10,17 @@ npm install
 
 ## Usage
 ```bash
-scrapers/candidates.js # get all candidates for an election
-scrapers/women.js # which are women?
-scrapers/itr.js # which filed ITR?
-scrapers/no_pan.js # which didn't declare PAN?
-scrapers/serious_cases.js # which face serious criminal cases?
+node scrapers/candidates.js # get all candidates for an election
+node scrapers/women.js # which are women?
+node scrapers/itr.js # which filed ITR?
+node scrapers/no_pan.js # which didn't declare PAN?
+node scrapers/serious_cases.js # which face serious criminal cases?
+node scrapers/recontest.js # which candidates are running again? NOTE: You need to run the candidates scraper first
+```
+
+After you've run those, you can run these
+```bash
+node processors/master.js # make a master file
 ```
 
 ## Add An Election

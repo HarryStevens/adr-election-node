@@ -37,6 +37,7 @@ select.select(obj => {
 						var txt = $(col).text().trim();
 						if (col_index == 1) {
 							candidate.candidate_name = txt;
+							candidate.url = "http://myneta.info/" + id + "/" + $(col).find("a").attr("href");
 						} else if (col_index == 2){
 							candidate.constituency = txt;
 						} else if (col_index == 3){

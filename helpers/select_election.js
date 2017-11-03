@@ -59,6 +59,6 @@ module.exports.select = function(callback){
 	return _.chain(data).pluck(variable).uniq().value();
 	}
 	function showList(data){
-		return data.map(d => "'" + d + "'").join(", ")
+		return data.map(d => "'" + d + "'").sort().join(", ")
 	}
 }
