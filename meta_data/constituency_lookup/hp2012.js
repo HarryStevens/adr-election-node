@@ -1,6 +1,6 @@
 module.exports = [
   {
-    "constituency": "ANNI",
+    "constituency": "ANNI (SC)",
     "ac_no": 25,
     "reservations": "SC",
     "district": "KULLU",
@@ -14,14 +14,14 @@ module.exports = [
     "sub_region": "SHIVALIK REGION"
   },
   {
-    "constituency": "BAIJNATH",
+    "constituency": "BAIJNATH (SC)",
     "ac_no": 20,
     "reservations": "SC",
     "district": "KANGRA",
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "BALH",
+    "constituency": "BALH (SC)",
     "ac_no": 34,
     "reservations": "SC",
     "district": "MANDI",
@@ -42,7 +42,7 @@ module.exports = [
     "sub_region": "SHIVALIK REGION"
   },
   {
-    "constituency": "BHARMOUR",
+    "constituency": "BHARMOUR (ST)",
     "ac_no": 2,
     "reservations": "ST",
     "district": "CHAMBA",
@@ -56,7 +56,7 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "BHORANJ",
+    "constituency": "BHORANJ (SC)",
     "ac_no": 36,
     "reservations": "SC",
     "district": "HAMIRPUR",
@@ -77,7 +77,7 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "CHINTPURNI",
+    "constituency": "CHINTPURNI (SC)",
     "ac_no": 41,
     "reservations": "SC",
     "district": "UNA",
@@ -91,7 +91,7 @@ module.exports = [
     "sub_region": "SHIMLA REGION"
   },
   {
-    "constituency": "CHURAH",
+    "constituency": "CHURAH (SC)",
     "ac_no": 1,
     "reservations": "SC",
     "district": "CHAMBA",
@@ -175,14 +175,14 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "INDORA",
+    "constituency": "INDORA (SC)",
     "ac_no": 7,
     "reservations": "SC",
     "district": "KANGRA",
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "JAISINGHPUR",
+    "constituency": "JAISINGHPUR (SC)",
     "ac_no": 13,
     "reservations": "SC",
     "district": "KANGRA",
@@ -210,7 +210,7 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "JHANDUTA",
+    "constituency": "JHANDUTA (SC)",
     "ac_no": 46,
     "reservations": "SC",
     "district": "BILASPUR",
@@ -224,7 +224,7 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "JUBBAL-KOTKHAI",
+    "constituency": "JUBBAL -KOTKHAI",
     "ac_no": 65,
     "reservations": "GEN",
     "district": "SHIMLA",
@@ -238,14 +238,14 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "KARSOG",
+    "constituency": "KARSOG (SC)",
     "ac_no": 26,
     "reservations": "SC",
     "district": "MANDI",
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "KASAULI",
+    "constituency": "KASAULI (SC)",
     "ac_no": 54,
     "reservations": "SC",
     "district": "SOLAN",
@@ -259,7 +259,7 @@ module.exports = [
     "sub_region": "SHIMLA REGION"
   },
   {
-    "constituency": "KINNAUR",
+    "constituency": "KINNAUR (ST)",
     "ac_no": 68,
     "reservations": "ST",
     "district": "KINNAUR",
@@ -280,7 +280,7 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "LAHAUL & SPITI",
+    "constituency": "LAHAUL AND SPITI (ST)",
     "ac_no": 21,
     "reservations": "ST",
     "district": "LAHAUL & SPITI",
@@ -301,7 +301,7 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "NACHAN",
+    "constituency": "NACHAN (SC)",
     "ac_no": 28,
     "reservations": "SC",
     "district": "MANDI",
@@ -343,7 +343,7 @@ module.exports = [
     "sub_region": "BEAS RIVER REGION"
   },
   {
-    "constituency": "PACHHAD",
+    "constituency": "PACHHAD (SC)",
     "ac_no": 55,
     "reservations": "SC",
     "district": "SIRMOUR",
@@ -364,14 +364,14 @@ module.exports = [
     "sub_region": "SHIVALIK REGION"
   },
   {
-    "constituency": "RAMPUR",
+    "constituency": "RAMPUR (SC)",
     "ac_no": 66,
     "reservations": "SC",
     "district": "SHIMLA",
     "sub_region": "SHIMLA REGION"
   },
   {
-    "constituency": "ROHRU",
+    "constituency": "ROHRU (SC)",
     "ac_no": 67,
     "reservations": "SC",
     "district": "SHIMLA",
@@ -420,7 +420,7 @@ module.exports = [
     "sub_region": "SHIMLA REGION"
   },
   {
-    "constituency": "SOLAN",
+    "constituency": "SOLAN (SC)",
     "ac_no": 53,
     "reservations": "SC",
     "district": "SOLAN",
@@ -434,7 +434,7 @@ module.exports = [
     "sub_region": "SHIVALIK REGION"
   },
   {
-    "constituency": "SRI RENUKAJI",
+    "constituency": "SRI RENUKAJI (SC)",
     "ac_no": 57,
     "reservations": "SC",
     "district": "SIRMOUR",
