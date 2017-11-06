@@ -58,6 +58,6 @@ module.exports.select = function(callback){
 	return _.chain(data).pluck(variable).uniq().value();
 	}
 	function showList(data){
-		return data.sort().join("\n")
+		return data.filter(d => d != ".DS_Store").sort().join("\n");
 	}
 }
