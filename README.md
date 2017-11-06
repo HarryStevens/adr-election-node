@@ -9,12 +9,14 @@ npm install
 ```
 
 ## Usage
+### Scrapers
 ```bash
 node scrapers/index.js # get all candidates for an election
-node scrapers/candidate-details.js # more details about the candidate NOTE: You need to run the index.js scraper first
+node scrapers/candidate-details.js # more details about the candidates. this takes a lot longer to run because it has to make a separate request for each candidate.
 ```
 
-After you've run those, you can run these
+### Processors
+After you've run the scrapers, you can run the processors.
 ```bash
 node processors/partify.js # get party full names (all the parties need to be added to party-time first)
 ```

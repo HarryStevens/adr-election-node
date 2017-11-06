@@ -1,8 +1,5 @@
-
-var select = require("../helpers/select_election");
-	
-
-var candidates = require("../helpers/get_candidates"),
+var select = require("../helpers/select_election"),
+	candidates = require("../helpers/get_candidates"),
 	itr = require("../helpers/get_itr"),
 	no_pan = require("../helpers/get_no_pan"),
 	serious_cases = require("../helpers/get_serious_cases"),

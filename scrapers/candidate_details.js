@@ -51,7 +51,7 @@ function cb(object){
 
 			$("table").each(function(table_index, table){
 
-				if (table_index == 1){
+				if (table_index == object.table_index){
 
 					var rows = $(table).find("tr");
 
@@ -132,7 +132,7 @@ function cb(object){
 								data.push(obj);
 
 								// don't write till the end
-								if (pct > 90) io.writeDataSync("data/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", data);	
+								if (pct > 90) io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", data);	
 								
 							} else {
 								console.log("Error scraping " + obj.url);
