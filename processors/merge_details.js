@@ -9,13 +9,15 @@ function cb(object){
 		year = object.year,
 		id = object.id;
 	
-	var file_start = "data/" + state.toLowerCase() + "/" + year + "/" + state.toLowerCase() + "_" + year;
+	var file_start = "data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year;
 	var candidates = io.readDataSync(file_start + "_candidates.csv");
 	var details = io.readDataSync(file_start + "_candidate-details.csv");
 
 	var merged = jz.arr.merge(candidates, details, "url");
 	merged = jz.arr.removeProperty(merged, ["candidate_name2", "url2", "constituency2", "part2"])
   
-  io.writeDataSync(file_start + "_candidates_MASTER.csv", merged);
+  var out_file = file_start + "_candidates_MASTER.csv";
+  console.log(state + " " + year + " has been merged into " + out_file);
+  io.writeDataSync(out_file, merged);
 
 }
