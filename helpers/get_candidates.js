@@ -11,7 +11,7 @@ function lookupAc(id, constituency){
 	return _.where(lookup, {constituency: constituency})[0];
 }
 function getNumberFromCol(txt){
-	return +jz.str.replaceAll(txt.split("Rs")[1].split(" ~")[0], ",", "").trim();
+	return txt == "Nil" ? 0 : +jz.str.replaceAll(txt.split("Rs")[1].split(" ~")[0], ",", "").trim();
 }
 
 module.exports.go = function(obj, callback){

@@ -18,6 +18,7 @@ node scrapers/candidate-details.js # more details about the candidates. this tak
 ### Processors
 After you've run the scrapers, you can run the processors.
 ```bash
+node processors/merge_details.js # merge the candidates.csv with with candidate-details.csv into a MASTER.csv
 node processors/partify.js # get party full names (all the parties need to be added to party-time first)
 ```
 
