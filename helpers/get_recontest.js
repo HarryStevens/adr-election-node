@@ -55,9 +55,14 @@ module.exports.go = function(obj, callback){
 
         var index = require("./get_index_by")(out, "url", url);
 
-        Object.keys(write_obj).forEach(key => {
-        	out[index][key] = write_obj[key];
-        });
+        // maybe it looks up a candidate we don't already have?
+        if (index != -1){
+        	Object.keys(write_obj).forEach(key => {
+	        	out[index][key] = write_obj[key];
+	        });	
+        } else {
+        	console.log("Missing data for " + url);
+        }
 	
 				if (i == rows.length - 2) {
 					out.forEach(row => {

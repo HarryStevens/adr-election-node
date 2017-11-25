@@ -67,6 +67,7 @@ module.exports.go = function(obj, callback){
 					candidate.net_assets = candidate.assets - candidate.liabilities;
 
 					var constituency_info = lookupAc(id, candidate.constituency);
+					
 					var keys = Object.keys(constituency_info);
 					keys.forEach(key => {
 						candidate[key] = constituency_info[key];
