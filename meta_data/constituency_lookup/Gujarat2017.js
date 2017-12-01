@@ -502,5 +502,124 @@ module.exports = [
    "reservations": "GEN",
    "district": "DEVBHOOMI DWARKA",
    "sub_region": "SAURASHTRA"
+ },
+ {
+   "constituency": "AMRELI",
+   "ac_no": 95,
+   "reservations": "GEN",
+   "district": "ANAND",
+   "sub_region": "SAURASHTRA"
+ },
+ {
+   "constituency": "BANSDA (ST)",
+   "ac_no": 177,
+   "reservations": "ST",
+   "district": "NAVSARI",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "DEDIAPADA (ST)",
+   "ac_no": 149,
+   "reservations": "ST",
+   "district": "SURAT",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "GANDEVI (ST)",
+   "ac_no": 176,
+   "reservations": "ST",
+   "district": "NAVSARI",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "JALALPORE",
+   "ac_no": 174,
+   "reservations": "GEN",
+   "district": "NAVSARI",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "JAMBUSAR",
+   "ac_no": 150,
+   "reservations": "GEN",
+   "district": "SURAT",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "JHAGADIA (ST)",
+   "ac_no": 152,
+   "reservations": "ST",
+   "district": "SURAT",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "KAPRADA (ST)",
+   "ac_no": 181,
+   "reservations": "ST",
+   "district": "VALSAD",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "MAHUVA (ST)",
+   "ac_no": 170,
+   "reservations": "ST",
+   "district": "SURAT",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "MAJURA",
+   "ac_no": 165,
+   "reservations": "GEN",
+   "district": "SURAT",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "MANGROL (ST)",
+   "ac_no": 156,
+   "reservations": "ST",
+   "district": "NAVSARI",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "NANDOD (ST)",
+   "ac_no": 148,
+   "reservations": "ST",
+   "district": "SURAT",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "NAVSARI",
+   "ac_no": 175,
+   "reservations": "GEN",
+   "district": "NAVSARI",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "SURAT WEST",
+   "ac_no": 167,
+   "reservations": "GEN",
+   "district": "SURAT",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "UNA",
+   "ac_no": 93,
+   "reservations": "GEN",
+   "district": "ANAND",
+   "sub_region": "SAURASHTRA"
+ },
+ {
+   "constituency": "VALSAD",
+   "ac_no": 179,
+   "reservations": "GEN",
+   "district": "VALSAD",
+   "sub_region": "SOUTH GUJARAT"
+ },
+ {
+   "constituency": "VYARA (ST)",
+   "ac_no": 171,
+   "reservations": "ST",
+   "district": "TAPI",
+   "sub_region": "SOUTH GUJARAT"
  }
 ]
