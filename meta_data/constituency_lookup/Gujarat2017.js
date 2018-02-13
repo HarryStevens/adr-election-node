@@ -42,7 +42,7 @@ module.exports = [
     "sub_region": "Kutch"
   },
   {
-    "constituency": "VAV ",
+    "constituency": "VAV",
     "ac_no": 7,
     "reservations": "GEN",
     "district": "Banaskantha",
@@ -749,7 +749,7 @@ module.exports = [
     "sub_region": "Saurashtra"
   },
   {
-    "constituency": "KHAMBAT",
+    "constituency": "KHAMBHAT",
     "ac_no": 108,
     "reservations": "GEN",
     "district": "Anand",

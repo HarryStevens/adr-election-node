@@ -20,8 +20,8 @@
     "cheerio": "^1.0.0-rc.2",
     "fsz": "^1.2.1",
     "indian-ocean": "^3.0.2",
-    "jeezy": "^1.12.9",
-    "party-time": "^3.0.3",
+    "jeezy": "^1.12.13",
+    "party-time": "^3.0.7",
     "prompt": "^1.0.0",
     "request": "^2.83.0",
     "underscore": "^1.8.3"

@@ -12,7 +12,7 @@ module.exports.select = function(callback){
 		properties: {
 			state: {
 				required: true,
-				message: "What state do you want? Your options are:\n" + showList(states)
+				message: "What state do you want? Your options are:\n" + showList(states) + "\n\nNOTE: If you do not see the state you need, you can add it to meta_data/elections.js"
 			}
 		}
 	}
@@ -32,7 +32,7 @@ module.exports.select = function(callback){
 			properties: {
 				year: {
 					required: true,
-					message: "You entered " + state + ". Which election year? Your options are:\n" + showList(years)
+					message: "You entered " + state + ". Which election year? Your options are:\n" + showList(years) + "\n\nNOTE: If you do not see the year you need, you can add it to meta_data/elections.js"
 				}
 			}
 		}
