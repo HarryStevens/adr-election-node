@@ -23,7 +23,8 @@ module.exports.select = function(callback){
 		var state = res.state;
 
 		if (states.indexOf(state) == -1) {
-			throw Error("We don't have " + state + " in our list of states. Try again.");
+			console.log("We don't have " + state + " in our list of states. Try again.");
+			return;
 		}
 
 		var years = getUniq(_.where(elections, {state, state}), "year");
@@ -43,7 +44,8 @@ module.exports.select = function(callback){
 			var year = res.year;
 
 			if (years.indexOf(year) == -1){
-				throw Error("We don't have " + year + " in our list of years for " + state + ". Try again.");
+				console.log("We don't have " + year + " in our list of years for " + state + ". Try again.");
+				return;
 			}
 
 			var obj = _.where(elections, {state: state, year: year})[0];
