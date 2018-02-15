@@ -9,5 +9,7 @@ module.exports = [
 	{state: "Nagaland", year: "2013", id: "nagaland2013", table_index: 2},
 	{state: "Nagaland", year: "2008", id: "2008Nagaland", table_index: 2},
 	{state: "Meghalaya", year: "2013", id: "meghalaya2013", table_index: 2},
-	{state: "Meghalaya", year: "2008", id: "2008Meghalaya", table_index: 2}
+	{state: "Meghalaya", year: "2008", id: "2008Meghalaya", table_index: 2},
+	{state: "Chhattisgarh", year: "2013", id: "chhattisgarh2013", table_index: 2},
+	{state: "Chhattisgarh", year: "2008", id: "2008Chhattisgarh", table_index: 2}
 ]
