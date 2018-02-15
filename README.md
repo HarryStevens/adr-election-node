@@ -12,7 +12,7 @@ npm install
 ### Scrapers
 ```bash
 node scrapers/index.js # get all candidates for an election
-node scrapers/candidate-details.js # more details about the candidates. this takes a lot longer to run because it has to make a separate request for each candidate.
+node scrapers/candidate_details.js # more details about the candidates. this takes a lot longer to run because it has to make a separate request for each candidate.
 ```
 
 ### Processors
