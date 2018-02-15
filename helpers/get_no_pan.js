@@ -27,29 +27,40 @@ module.exports.go = function(obj, callback){
 		$("table").each((table_index, table) => {
 			if (table_index == obj.table_index){
 				var rows = $(table).find("tbody").find("tr");
-				rows.each((row_index, row) => {
-					var url; 
-					$(row).find("td").each((col_index, col) => {
+				if (rows.length == 0){
+					console.log("No PAN data.");
+					out.forEach(d => {
+						d.declared_pan = "";
+						return d;
+					});
+					io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
+					callback(obj);
+				} else {
+					rows.each((row_index, row) => {
+						var url; 
+						$(row).find("td").each((col_index, col) => {
 
-						if (col_index == 1) {
-							url = "http://myneta.info/" + id + "/" + $(col).find("a").attr("href");
-						}
+							if (col_index == 1) {
+								url = "http://myneta.info/" + id + "/" + $(col).find("a").attr("href");
+							}
+
+						});
+
+						var index = require("./get_index_by")(out, "url", url);
+
+						out[index].declared_pan = "false";
+			
+						if (row_index == rows.length - 1) {
+							out.forEach(row => {
+								if(!row.declared_pan) row.declared_pan = "true";
+							});
+							io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
+							callback(obj);
+						};
 
 					});
-
-					var index = require("./get_index_by")(out, "url", url);
-
-					out[index].declared_pan = "false";
-		
-					if (row_index == rows.length - 1) {
-						out.forEach(row => {
-							if(!row.declared_pan) row.declared_pan = "true";
-						});
-						io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
-						callback(obj);
-					};
-
-				});
+				}
+				
 			}
 		});
 	});

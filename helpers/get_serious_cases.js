@@ -27,28 +27,39 @@ module.exports.go = function(obj, callback){
 		$("table").each((table_index, table) => {
 			if (table_index == obj.table_index){
 				var rows = $(table).find("tbody").find("tr");
-				rows.each((row_index, row) => {
-					var url; 
-					$(row).find("td").each((col_index, col) => {
 
-						if (col_index == 1) {
-							url = "http://myneta.info/" + id + "/" + $(col).find("a").attr("href");
-						}
-
+				if (rows.length == 0){
+					console.log("No serious cases data.");
+					out.forEach(d => {
+						d.serious_criminal_cases = "";
+						return d;
 					});
+					io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
+					callback(obj);
+				} else {
+					rows.each((row_index, row) => {
+						var url; 
+						$(row).find("td").each((col_index, col) => {
 
-					var index = require("./get_index_by")(out, "url", url);
+							if (col_index == 1) {
+								url = "http://myneta.info/" + id + "/" + $(col).find("a").attr("href");
+							}
 
-					out[index].serious_criminal_cases = "true";
-		
-					if (row_index == rows.length - 1) {
-						out.forEach(row => {
-							if(!row.serious_criminal_cases) row.serious_criminal_cases = "false";
 						});
-						io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
-						callback(obj);
-					};
-				});
+
+						var index = require("./get_index_by")(out, "url", url);
+
+						out[index].serious_criminal_cases = "true";
+			
+						if (row_index == rows.length - 1) {
+							out.forEach(row => {
+								if(!row.serious_criminal_cases) row.serious_criminal_cases = "false";
+							});
+							io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
+							callback(obj);
+						};
+					});
+				}
 			}
 		});
 	});

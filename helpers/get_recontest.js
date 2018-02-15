@@ -26,58 +26,75 @@ module.exports.go = function(obj, callback){
 
 		var rows = $(".divTableWithFloatingHeader").find("tr");
 
-    rows.each((i, d) => {
+		if (rows.length == 0){
+			console.log("No recontesting data.")
+			
+			out.forEach(d => {
+				d.recontest_url = "";
+				d.recontest_assets_this = "";
+				d.recontest_assets_last = "";
+				d.recontest_assets_change = "";
+				d.recontest_remarks = "";
+				return d;
+			});
+			io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
+			console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv");
+		} else {
+			rows.each((i, d) => {
 
-      if (i >= 2 && i != rows.length - 1){
-        
-        var write_obj = {};
+	      if (i >= 2 && i != rows.length - 1){
+	        
+	        var write_obj = {};
 
-        var url;
-        
-        $(d).find("td").each(function(i, c){
+	        var url;
+	        
+	        $(d).find("td").each(function(i, c){
 
-          if (i == 1){
-          	write_obj.recontest_url = $(c).find("a").attr("href");
-            url = "http://myneta.info/" + id + "/candidate.php?candidate_id=" + write_obj.recontest_url.split("&id1=")[1].split("&")[0]; 
-          } else if (i == 2){
-            write_obj.recontest_assets_this = +jz.str.replaceAll($(c).text().split("  ")[0],",","");
-          } else if (i == 3){
-            write_obj.recontest_assets_last = +jz.str.replaceAll($(c).text().split("  ")[0],",","");
-          } else if (i == 4){
-            write_obj.recontest_assets_change = +jz.str.replaceAll($(c).text().split("  ")[0],",","");
-          } else if (i == 5){
-            write_obj.recontest_assets_change_pct = $(c).text();
-          } else if (i == 6){
-            write_obj.recontest_remarks = $(c).text().trim();
-          }
+	          if (i == 1){
+	          	write_obj.recontest_url = $(c).find("a").attr("href");
+	            url = "http://myneta.info/" + id + "/candidate.php?candidate_id=" + write_obj.recontest_url.split("&id1=")[1].split("&")[0]; 
+	          } else if (i == 2){
+	            write_obj.recontest_assets_this = +jz.str.replaceAll($(c).text().split("  ")[0],",","");
+	          } else if (i == 3){
+	            write_obj.recontest_assets_last = +jz.str.replaceAll($(c).text().split("  ")[0],",","");
+	          } else if (i == 4){
+	            write_obj.recontest_assets_change = +jz.str.replaceAll($(c).text().split("  ")[0],",","");
+	          } else if (i == 5){
+	            write_obj.recontest_assets_change_pct = $(c).text();
+	          } else if (i == 6){
+	            write_obj.recontest_remarks = $(c).text().trim();
+	          }
 
-        });
+	        });
 
-        var index = require("./get_index_by")(out, "url", url);
+	        var index = require("./get_index_by")(out, "url", url);
 
-        // maybe it looks up a candidate we don't already have?
-        if (index != -1){
-        	Object.keys(write_obj).forEach(key => {
-	        	out[index][key] = write_obj[key];
-	        });	
-        } else {
-        	console.log("Missing data for " + url);
-        }
-	
-				if (i == rows.length - 2) {
-					out.forEach(row => {
-						Object.keys(write_obj).forEach(key => {
-		        	if (!row[key]) row[key] = "NA"
-		        });
-					});
-					io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
-					
-					console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv");
-				};
+	        // maybe it looks up a candidate we don't already have?
+	        if (index != -1){
+	        	Object.keys(write_obj).forEach(key => {
+		        	out[index][key] = write_obj[key];
+		        });	
+	        } else {
+	        	console.log("Missing data for " + url);
+	        }
+		
+					if (i == rows.length - 2) {
+						out.forEach(row => {
+							Object.keys(write_obj).forEach(key => {
+			        	if (!row[key]) row[key] = "";
+			        });
+						});
+						io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv", out);
+						
+						console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates.csv");
+					};
 
-      }
+	      }
 
-    });
+	    });
+		}
+
+    
 
 	});
 }

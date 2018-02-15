@@ -120,8 +120,8 @@ function cb(object){
 									if (i == 0){
 										var profession_split = $(d).html().split(":");
 										
-										obj.profession = profession_split[1].split("<br")[0].split(">")[1];
-										obj.spouse_profession = profession_split[2].replace(/\n/g, "").replace("</b>", "");
+										obj.profession = profession_split[1] ? profession_split[1].split("<br")[0].split(">")[1] : "";
+										obj.spouse_profession = profession_split[2] ? profession_split[2].replace(/\n/g, "").replace("</b>", "") : "";
 									}
 
 								});
