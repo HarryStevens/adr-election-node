@@ -68,7 +68,12 @@ module.exports.go = function(obj, callback){
 					candidate.net_assets = candidate.assets - candidate.liabilities;
 
 					var constituency_info = lookupAc(id, candidate.constituency);
-					
+
+					if (constituency_info == undefined){
+						console.log("Can't find " + candidate.constituency + " in " + "meta_data/constituency_lookup/" + id + ".js. Check the file and try again.");
+						process.exit();
+					}
+
 					var keys = Object.keys(constituency_info);
 					keys.forEach(key => {
 						candidate[key] = constituency_info[key];
