@@ -18,5 +18,7 @@ module.exports = [
 	{state: "Madhya Pradesh", year: "2008", id: "2008mp", table_index: 2},
 	{state: "Andhra Pradesh", year: "2014", id: "andhra2014", table_index: 2},
 	{state: "Andhra Pradesh", year: "2009", id: "ap09", table_index: 2},
-	{state: "Arunachal Pradesh", year: "2004", id: "an2004", table_index: 2}
+	{state: "Arunachal Pradesh", year: "2004", id: "an2004", table_index: 2},
+	{state: "Arunachal Pradesh", year: "2009", id: "an2009", table_index: 2},
+	{state: "Arunachal Pradesh", year: "2014", id: "arunachal2014", table_index: 2}
 ]
