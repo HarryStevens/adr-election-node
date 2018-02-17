@@ -1,5 +1,12 @@
 module.exports = [
  {
+   "constituency": "ACHAMPET (SC)",
+   "ac_no": 82,
+   "reservations": "SC",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "ACHANTA",
    "ac_no": 175,
    "reservations": "GEN",
@@ -14,11 +21,32 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "ADILABAD",
+   "ac_no": 7,
+   "reservations": "GEN",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "ADONI",
    "ac_no": 265,
    "reservations": "GEN",
    "district": "KURNOOL",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "ALAIR",
+   "ac_no": 97,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "ALAMPUR (SC)",
+   "ac_no": 80,
+   "reservations": "SC",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "ALLAGADDA",
@@ -42,11 +70,18 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "AMALAPURAM",
+   "constituency": "AMALAPURAM (SC)",
    "ac_no": 163,
    "reservations": "SC",
    "district": "EAST GODAVARI",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "AMBERPET",
+   "ac_no": 59,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "ANAKAPALLE",
@@ -70,11 +105,39 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "ARAKU VALLEY",
+   "constituency": "ANDOLE (SC)",
+   "ac_no": 36,
+   "reservations": "SC",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "ARAKU VALLEY (ST)",
    "ac_no": 147,
    "reservations": "ST",
    "district": "VISHAKAPATNAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "ARMUR",
+   "ac_no": 11,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "ASIFABAD (ST)",
+   "ac_no": 5,
+   "reservations": "ST",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "ASWARAOPETA (ST)",
+   "ac_no": 118,
+   "reservations": "ST",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "ATMAKUR",
@@ -91,11 +154,25 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "BADVEL",
+   "constituency": "BADVEL (SC)",
    "ac_no": 243,
    "reservations": "SC",
    "district": "KADAPA",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "BAHDURPURA",
+   "ac_no": 69,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "BALKONDA",
+   "ac_no": 19,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "BANAGANAPALLE",
@@ -105,11 +182,32 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
+   "constituency": "BANSWADA",
+   "ac_no": 14,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "BAPATLA",
    "ac_no": 211,
    "reservations": "GEN",
    "district": "GUNTUR",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "BELLAMPALLY (SC)",
+   "ac_no": 3,
+   "reservations": "SC",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "BHADRACHELAM (ST)",
+   "ac_no": 119,
+   "reservations": "ST",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "BHIMAVARAM",
@@ -119,11 +217,32 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "BIMILI",
+   "constituency": "BHIMLI",
    "ac_no": 139,
    "reservations": "GEN",
    "district": "VISHAKAPATNAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "BHONGIR",
+   "ac_no": 94,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "BHUPALPALLE",
+   "ac_no": 108,
+   "reservations": "GEN",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "BOATH (ST)",
+   "ac_no": 8,
+   "reservations": "ST",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "BOBBILI",
@@ -133,11 +252,32 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "BODHAN",
+   "ac_no": 12,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "CHANDRAGIRI",
    "ac_no": 285,
    "reservations": "GEN",
    "district": "CHITTOOR",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "CHANDRAYANGUTTA",
+   "ac_no": 67,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "CHARMINAR",
+   "ac_no": 66,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "CHEEPURUPALLE",
@@ -147,6 +287,20 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "CHENNUR (SC)",
+   "ac_no": 2,
+   "reservations": "SC",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "CHEVELLA (SC)",
+   "ac_no": 53,
+   "reservations": "SC",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "CHILAKALURIPET",
    "ac_no": 215,
    "reservations": "GEN",
@@ -154,7 +308,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "CHINTALAPUDI",
+   "constituency": "CHINTALAPUDI (SC)",
    "ac_no": 187,
    "reservations": "SC",
    "district": "WEST GODAVARI",
@@ -182,6 +336,13 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "CHOPPADANDI (SC)",
+   "ac_no": 27,
+   "reservations": "SC",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "DARSI",
    "ac_no": 222,
    "reservations": "GEN",
@@ -196,6 +357,27 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "DEVARAKONDA (ST)",
+   "ac_no": 86,
+   "reservations": "ST",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "DEVARKADRA",
+   "ac_no": 76,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "DHARMAPURI (SC)",
+   "ac_no": 22,
+   "reservations": "SC",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "DHARMAVARAM",
    "ac_no": 279,
    "reservations": "GEN",
@@ -208,6 +390,20 @@ module.exports = [
    "reservations": "GEN",
    "district": "KURNOOL",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "DORNAKAL (ST)",
+   "ac_no": 101,
+   "reservations": "ST",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "DUBBAKA",
+   "ac_no": 41,
+   "reservations": "GEN",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "ELAMANCHILI",
@@ -231,6 +427,13 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "GADWAL",
+   "ac_no": 79,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "GAJAPATHINAGARAM",
    "ac_no": 135,
    "reservations": "GEN",
@@ -245,7 +448,14 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "GANGADHARA NELLORE",
+   "constituency": "GAJWEL",
+   "ac_no": 42,
+   "reservations": "GEN",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "GANGADHARA NELLORE(SC)",
    "ac_no": 290,
    "reservations": "SC",
    "district": "CHITTOOR",
@@ -259,6 +469,20 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "GANNAVARAM (SC)",
+   "ac_no": 165,
+   "reservations": "SC",
+   "district": "EAST GODAVARI",
+   "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "GHANPUR (STATION) (SC)",
+   "ac_no": 99,
+   "reservations": "SC",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "GIDDALUR",
    "ac_no": 231,
    "reservations": "GEN",
@@ -266,11 +490,18 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "GOPALAPURAM",
+   "constituency": "GOPALAPURAM (SC)",
    "ac_no": 185,
    "reservations": "SC",
    "district": "WEST GODAVARI",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "GOSHAMAHAL",
+   "ac_no": 65,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "GUDIVADA",
@@ -280,7 +511,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "GUDUR",
+   "constituency": "GUDUR (SC)",
    "ac_no": 239,
    "reservations": "SC",
    "district": "NELLORE",
@@ -294,13 +525,6 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "GUNTUR EAST",
-   "ac_no": 214,
-   "reservations": "GEN",
-   "district": "GUNTUR",
-   "sub_region": "COASTAL ANDHRA"
- },
- {
    "constituency": "GUNTUR WEST",
    "ac_no": 213,
    "reservations": "GEN",
@@ -308,7 +532,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "GURAJALA",
+   "constituency": "GURUZALA",
    "ac_no": 219,
    "reservations": "GEN",
    "district": "GUNTUR",
@@ -322,11 +546,46 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
+   "constituency": "HUSNABAD",
+   "ac_no": 32,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "HUZURABAD",
+   "ac_no": 31,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "HUZURNAGAR",
+   "ac_no": 89,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "IBRAHIMPATNAM",
+   "ac_no": 48,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "ICHCHAPURAM",
    "ac_no": 120,
    "reservations": "GEN",
    "district": "SRIKAKULAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "JADCHERLA",
+   "ac_no": 75,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "JAGGAMPETA",
@@ -343,11 +602,39 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "JAGTIAL",
+   "ac_no": 21,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "JAMMALAMADUGU",
    "ac_no": 250,
    "reservations": "GEN",
    "district": "KADAPA",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "JANGOAN",
+   "ac_no": 98,
+   "reservations": "GEN",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "JUBILEE HILLS",
+   "ac_no": 61,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "JUKKAL (SC)",
+   "ac_no": 13,
+   "reservations": "SC",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "KADAPA",
@@ -385,6 +672,13 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "KALWAKURTHY",
+   "ac_no": 83,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "KALYANDURG",
    "ac_no": 273,
    "reservations": "GEN",
@@ -397,6 +691,13 @@ module.exports = [
    "reservations": "GEN",
    "district": "KADAPA",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "KAMAREDDY",
+   "ac_no": 16,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "KANDUKUR",
@@ -413,6 +714,20 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "KARIMNAGAR",
+   "ac_no": 26,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "KARWAN",
+   "ac_no": 64,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "KAVALI",
    "ac_no": 233,
    "reservations": "GEN",
@@ -420,25 +735,74 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "KODUMUR",
+   "constituency": "KHAIRATABAD",
+   "ac_no": 60,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "KHANAPUR (ST)",
+   "ac_no": 6,
+   "reservations": "ST",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "KODAD",
+   "ac_no": 90,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "KODANGAL",
+   "ac_no": 72,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "KODUMUR (SC)",
    "ac_no": 262,
    "reservations": "SC",
    "district": "KURNOOL",
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "KODUR",
+   "constituency": "KODUR (SC)",
    "ac_no": 246,
    "reservations": "SC",
    "district": "KADAPA",
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "KONDAPI",
+   "constituency": "KOLLAPUR",
+   "ac_no": 85,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "KONDAPI (SC)",
    "ac_no": 229,
    "reservations": "SC",
    "district": "PRAKASAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "KORUTLA",
+   "ac_no": 20,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "KOTHAGUDEM",
+   "ac_no": 117,
+   "reservations": "GEN",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "KOTHAPETA",
@@ -455,11 +819,18 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "KOVVUR",
+   "constituency": "KOVVUR (SC)",
    "ac_no": 173,
    "reservations": "SC",
    "district": "WEST GODAVARI",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "KUKATPALLY",
+   "ac_no": 46,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "KUPPAM",
@@ -476,11 +847,25 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "KURUPAM",
+   "constituency": "KURUPAM (ST)",
    "ac_no": 130,
    "reservations": "ST",
    "district": "VIZIANAGARAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "Khammam",
+   "ac_no": 112,
+   "reservations": "GEN",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "LAL BAHADUR NAGAR",
+   "ac_no": 49,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "MACHERLA",
@@ -497,7 +882,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "MADAKASIRA",
+   "constituency": "MADAKASIRA (SC)",
    "ac_no": 275,
    "reservations": "SC",
    "district": "ANANTAPUR",
@@ -511,11 +896,74 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
+   "constituency": "MADIRA (SC)",
+   "ac_no": 114,
+   "reservations": "SC",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "MADUGULA",
    "ac_no": 146,
    "reservations": "GEN",
    "district": "VISHAKAPATNAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "MAHABUBABAD (ST)",
+   "ac_no": 102,
+   "reservations": "ST",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MAHBUBNAGAR",
+   "ac_no": 74,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MAHESHWARAM",
+   "ac_no": 50,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MAKTHAL",
+   "ac_no": 77,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MALAKPET",
+   "ac_no": 58,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MALKAJGIRI",
+   "ac_no": 44,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MANAKONDUR (SC)",
+   "ac_no": 30,
+   "reservations": "SC",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MANCHERIAL",
+   "ac_no": 4,
+   "reservations": "GEN",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "MANDAPETA",
@@ -532,6 +980,13 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "MANTHANI",
+   "ac_no": 24,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "MANTRALAYAM",
    "ac_no": 264,
    "reservations": "GEN",
@@ -546,11 +1001,53 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "MEDAK",
+   "ac_no": 34,
+   "reservations": "GEN",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MEDCHAL",
+   "ac_no": 43,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MUDHOLE",
+   "ac_no": 10,
+   "reservations": "GEN",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MULUG (ST)",
+   "ac_no": 109,
+   "reservations": "ST",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "MUMMIDIVARAM",
    "ac_no": 162,
    "reservations": "GEN",
    "district": "EAST GODAVARI",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "MUNUGODE",
+   "ac_no": 93,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "MUSHEERABAD",
+   "ac_no": 57,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "MYDUKUR",
@@ -567,6 +1064,13 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "Miryalaguda",
+   "ac_no": 88,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "NAGARI",
    "ac_no": 289,
    "reservations": "GEN",
@@ -574,14 +1078,49 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "NANDIGAMA",
+   "constituency": "NAGARJUNA SAGAR",
+   "ac_no": 87,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NAGARKURNOOL",
+   "ac_no": 81,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NAKREKAL (SC)",
+   "ac_no": 95,
+   "reservations": "SC",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NALGONDA",
+   "ac_no": 92,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NAMPALLI",
+   "ac_no": 63,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NANDIGAMA (SC)",
    "ac_no": 202,
    "reservations": "SC",
    "district": "KRISHNA",
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "NANDIKOTKUR",
+   "constituency": "NANDIKOTKUR (SC)",
    "ac_no": 255,
    "reservations": "SC",
    "district": "KURNOOL",
@@ -593,6 +1132,13 @@ module.exports = [
    "reservations": "GEN",
    "district": "KURNOOL",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "NARASANNAPETA",
+   "ac_no": 127,
+   "reservations": "GEN",
+   "district": "SRIKAKULAM",
+   "sub_region": "COASTAL ANDHRA"
  },
  {
    "constituency": "NARASAPURAM",
@@ -609,11 +1155,32 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "NARSANNAPETA",
-   "ac_no": 127,
+   "constituency": "NARAYANKHED",
+   "ac_no": 35,
    "reservations": "GEN",
-   "district": "SRIKAKULAM",
-   "sub_region": "COASTAL ANDHRA"
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NARAYANPET",
+   "ac_no": 73,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NARSAMPET",
+   "ac_no": 103,
+   "reservations": "GEN",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NARSAPUR",
+   "ac_no": 37,
+   "reservations": "GEN",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "NARSIPATNAM",
@@ -623,7 +1190,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "NEELIMARLA",
+   "constituency": "NELLIMARLA",
    "ac_no": 136,
    "reservations": "GEN",
    "district": "VIZIANAGARAM",
@@ -651,6 +1218,27 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "NIRMAL",
+   "ac_no": 9,
+   "reservations": "GEN",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NIZAMABAD (RURAL)",
+   "ac_no": 18,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "NIZAMABAD (URBAN)",
+   "ac_no": 17,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "NUZVID",
    "ac_no": 189,
    "reservations": "GEN",
@@ -665,7 +1253,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "PADERU",
+   "constituency": "PADERU (ST)",
    "ac_no": 148,
    "reservations": "ST",
    "district": "VISHAKAPATNAM",
@@ -679,11 +1267,25 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "PALAKONDA",
+   "constituency": "PALAIR",
+   "ac_no": 113,
+   "reservations": "GEN",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "PALAKONDA (ST)",
    "ac_no": 129,
    "reservations": "ST",
    "district": "SRIKAKULAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "PALAKURTHI",
+   "ac_no": 100,
+   "reservations": "GEN",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "PALAMANER",
@@ -700,7 +1302,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "PAMARRU",
+   "constituency": "PAMARRU (SC)",
    "ac_no": 196,
    "reservations": "SC",
    "district": "KRISHNA",
@@ -721,11 +1323,32 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "PARVATHIPURAM",
+   "constituency": "PARGI",
+   "ac_no": 54,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "PARKAL",
+   "ac_no": 104,
+   "reservations": "GEN",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "PARVATHIPURAM (SC)",
    "ac_no": 131,
    "reservations": "SC",
    "district": "VIZIANAGARAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "PATANCHERU",
+   "ac_no": 40,
+   "reservations": "GEN",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "PATHAPATNAM",
@@ -742,7 +1365,7 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "PAYAKARAOPET",
+   "constituency": "PAYAKARAOPET (SC)",
    "ac_no": 152,
    "reservations": "SC",
    "district": "VISHAKAPATNAM",
@@ -761,6 +1384,13 @@ module.exports = [
    "reservations": "GEN",
    "district": "KRISHNA",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "PEDDAPALLE",
+   "ac_no": 25,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "PEDDAPURAM",
@@ -798,6 +1428,13 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
+   "constituency": "PINAPAKA (ST)",
+   "ac_no": 110,
+   "reservations": "ST",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "PITHAPURAM",
    "ac_no": 156,
    "reservations": "GEN",
@@ -805,7 +1442,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "POLAVARAM",
+   "constituency": "POLAVARAM (ST)",
    "ac_no": 186,
    "reservations": "ST",
    "district": "WEST GODAVARI",
@@ -820,6 +1457,13 @@ module.exports = [
  },
  {
    "constituency": "PRATHIPADU",
+   "ac_no": 155,
+   "reservations": "GEN",
+   "district": "EAST GODAVARI",
+   "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "PRATHIPADU (SC)",
    "ac_no": 155,
    "reservations": "GEN",
    "district": "EAST GODAVARI",
@@ -847,7 +1491,7 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "PUTHALAPATTU",
+   "constituency": "PUTHALAPATTU (SC)",
    "ac_no": 292,
    "reservations": "SC",
    "district": "CHITTOOR",
@@ -861,6 +1505,13 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
+   "constituency": "QUTHBULLAPUR",
+   "ac_no": 45,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "RAJAHMUNDRY CITY",
    "ac_no": 169,
    "reservations": "GEN",
@@ -868,14 +1519,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "RAJAHMUNDRY RURAL",
-   "ac_no": 170,
-   "reservations": "GEN",
-   "district": "EAST GODAVARI",
-   "sub_region": "COASTAL ANDHRA"
- },
- {
-   "constituency": "RAJAM",
+   "constituency": "RAJAM (SC)",
    "ac_no": 128,
    "reservations": "SC",
    "district": "SRIKAKULAM",
@@ -896,6 +1540,13 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
+   "constituency": "RAJENDRANAGAR",
+   "ac_no": 51,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "RAMACHANDRAPURAM",
    "ac_no": 161,
    "reservations": "GEN",
@@ -903,7 +1554,14 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "RAMPACHODAVARAM",
+   "constituency": "RAMAGUNDAM",
+   "ac_no": 23,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "RAMPACHODAVARAM (ST)",
    "ac_no": 172,
    "reservations": "ST",
    "district": "EAST GODAVARI",
@@ -931,7 +1589,7 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "RAZOLE",
+   "constituency": "RAZOLE (SC)",
    "ac_no": 164,
    "reservations": "SC",
    "district": "EAST GODAVARI",
@@ -945,14 +1603,35 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "SALUR",
+   "constituency": "Rajamundry Rural",
+   "ac_no": 170,
+   "reservations": "GEN",
+   "district": "EAST GODAVARI",
+   "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "SALUR (ST)",
    "ac_no": 132,
    "reservations": "ST",
    "district": "VIZIANAGARAM",
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "SANTHANUTHALAPADU",
+   "constituency": "SANATH NAGAR",
+   "ac_no": 62,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SANGAREDDY",
+   "ac_no": 39,
+   "reservations": "GEN",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SANTHANUTHALAPADU (SC)",
    "ac_no": 226,
    "reservations": "SC",
    "district": "PRAKASAM",
@@ -966,25 +1645,81 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "SATTENAPALLE",
+   "constituency": "SATHUPALLI (SC)",
+   "ac_no": 116,
+   "reservations": "SC",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SATTENPALLI",
    "ac_no": 217,
    "reservations": "GEN",
    "district": "GUNTUR",
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "SATYAVEDU",
+   "constituency": "SATYAVEEDU (SC)",
    "ac_no": 288,
    "reservations": "SC",
    "district": "CHITTOOR",
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "SINGANAMALA",
+   "constituency": "SECUNDERABAD CANTT. (SC)",
+   "ac_no": 71,
+   "reservations": "SC",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SECUNDRABAD",
+   "ac_no": 70,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SERILINGAMPALLY",
+   "ac_no": 52,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SHADNAGAR",
+   "ac_no": 84,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SIDDIPET",
+   "ac_no": 33,
+   "reservations": "GEN",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SINGANAMALA (SC)",
    "ac_no": 271,
    "reservations": "SC",
    "district": "ANANTAPUR",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "SIRCILLA",
+   "ac_no": 29,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "SIRPUR",
+   "ac_no": 1,
+   "reservations": "GEN",
+   "district": "ADILABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "SRIKAKULAM",
@@ -1015,11 +1750,18 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "SULLURPETA",
+   "constituency": "SULLURPETA (SC)",
    "ac_no": 240,
    "reservations": "SC",
    "district": "NELLORE",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "SURYAPET",
+   "ac_no": 91,
+   "reservations": "GEN",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "TADEPALLIGUDEM",
@@ -1029,7 +1771,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "TADIKONDA",
+   "constituency": "TADIKONDA (SC)",
    "ac_no": 205,
    "reservations": "SC",
    "district": "GUNTUR",
@@ -1041,6 +1783,13 @@ module.exports = [
    "reservations": "GEN",
    "district": "ANANTAPUR",
    "sub_region": "RAYALA SEEMA"
+ },
+ {
+   "constituency": "TANDUR",
+   "ac_no": 56,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "TANUKU",
@@ -1071,6 +1820,13 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
+   "constituency": "THUNGATHURTHY (SC)",
+   "ac_no": 96,
+   "reservations": "SC",
+   "district": "NALGONDA",
+   "sub_region": "TELANGANA"
+ },
+ {
    "constituency": "TIRUPATI",
    "ac_no": 286,
    "reservations": "GEN",
@@ -1078,7 +1834,7 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "TIRUVURU",
+   "constituency": "TIRUVURU (SC)",
    "ac_no": 188,
    "reservations": "SC",
    "district": "KRISHNA",
@@ -1106,11 +1862,18 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "UNGUTUR",
+   "constituency": "UNGUTURU",
    "ac_no": 182,
    "reservations": "GEN",
    "district": "WEST GODAVARI",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "UPPAL",
+   "ac_no": 47,
+   "reservations": "GEN",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "URAVAKONDA",
@@ -1120,7 +1883,14 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "VEMURU",
+   "constituency": "VEMULAWADA",
+   "ac_no": 28,
+   "reservations": "GEN",
+   "district": "KARIMANAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "VEMURU (SC)",
    "ac_no": 208,
    "reservations": "SC",
    "district": "GUNTUR",
@@ -1132,6 +1902,13 @@ module.exports = [
    "reservations": "GEN",
    "district": "NELLORE",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "VICARADAB (SC)",
+   "ac_no": 55,
+   "reservations": "SC",
+   "district": "RANGAREDDI",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "VIJAYAWADA CENTRAL",
@@ -1148,7 +1925,7 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "VIJAYAWADA WEST",
+   "constituency": "VIJAYWADA WEST",
    "ac_no": 198,
    "reservations": "GEN",
    "district": "KRISHNA",
@@ -1162,15 +1939,22 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "VISAKHAPATNAM EAST",
-   "ac_no": 140,
+   "constituency": "VISAKHAPATNAM  NORTH",
+   "ac_no": 142,
    "reservations": "GEN",
    "district": "VISHAKAPATNAM",
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "VISAKHAPATNAM NORTH",
-   "ac_no": 142,
+   "constituency": "VISAKHAPATNAM  WEST",
+   "ac_no": 143,
+   "reservations": "GEN",
+   "district": "VISHAKAPATNAM",
+   "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "VISAKHAPATNAM EAST",
+   "ac_no": 140,
    "reservations": "GEN",
    "district": "VISHAKAPATNAM",
    "sub_region": "COASTAL ANDHRA"
@@ -1183,18 +1967,67 @@ module.exports = [
    "sub_region": "COASTAL ANDHRA"
  },
  {
-   "constituency": "VISAKHAPATNAM WEST",
-   "ac_no": 143,
-   "reservations": "GEN",
-   "district": "VISHAKAPATNAM",
-   "sub_region": "COASTAL ANDHRA"
- },
- {
    "constituency": "VIZIANAGARAM",
    "ac_no": 137,
    "reservations": "GEN",
    "district": "VIZIANAGARAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "WANAPARTHY",
+   "ac_no": 78,
+   "reservations": "GEN",
+   "district": "MAHABUBNAGAR",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "WARANGAL EAST",
+   "ac_no": 106,
+   "reservations": "GEN",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "WARANGAL WEST",
+   "ac_no": 105,
+   "reservations": "GEN",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "WARDHANAPET (SC)",
+   "ac_no": 107,
+   "reservations": "SC",
+   "district": "WARANGAL",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "WYRA (ST)",
+   "ac_no": 115,
+   "reservations": "ST",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "YAKUTPURA",
+   "ac_no": 68,
+   "reservations": "GEN",
+   "district": "HYDERABAD",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "YELLANDU (ST)",
+   "ac_no": 111,
+   "reservations": "ST",
+   "district": "KHAMMAM",
+   "sub_region": "TELANGANA"
+ },
+ {
+   "constituency": "YELLAREDDY",
+   "ac_no": 15,
+   "reservations": "GEN",
+   "district": "NIZAMABAD",
+   "sub_region": "TELANGANA"
  },
  {
    "constituency": "YEMMIGANUR",
@@ -1204,10 +2037,17 @@ module.exports = [
    "sub_region": "RAYALA SEEMA"
  },
  {
-   "constituency": "YERRAGONDAPALEM",
+   "constituency": "YERRAGONDAPALEM(SC)",
    "ac_no": 221,
    "reservations": "SC",
    "district": "PRAKASAM",
    "sub_region": "COASTAL ANDHRA"
+ },
+ {
+   "constituency": "ZAHIRABAD (SC)",
+   "ac_no": 38,
+   "reservations": "SC",
+   "district": "MEDAK",
+   "sub_region": "TELANGANA"
  }
 ]
