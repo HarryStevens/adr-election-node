@@ -9,32 +9,55 @@ select.select(obj => {
 	var path = "data/" + jz.str.toSlugCase(obj.state) + "/" + obj.year;
 	var files = fs.readdirSync(path).filter(d => d !== ".DS_Store");
 
-	var schema = {
-		properties: {
-			filename: {
-				required: true,
-				message: "What is the file name? Your options are:\n" + files.join("\n")
-			},
-			no_district_match: {
-				required: true,
-				message: "Does every constituency have a different name? (Y/N)"
+	if (files.length == 0){
+		console.log("No files in " + path);
+		process.exit();
+	} else if (files.length == 1){
+		var schema = {
+			properties: {
+				no_district_match: {
+					required: true,
+					message: "Does every constituency have a different name? (Y/N)"
+				}
 			}
 		}
+
+		prompt.start();
+
+		prompt.get(schema, (err, res) => {
+			if (err) throw err;
+			doit(files[0], res.no_district_match);
+		});
+
+	} else {
+		var schema = {
+			properties: {
+				filename: {
+					required: true,
+					message: "What is the file name? Your options are:\n" + files.join("\n")
+				},
+				no_district_match: {
+					required: true,
+					message: "Does every constituency have a different name? (Y/N)"
+				}
+			}
+		}
+
+		prompt.start();
+
+		prompt.get(schema, (err, res) => {
+			if (err) throw err;
+			doit(res.filename, res.no_district_match);
+		});		
 	}
 
-	prompt.start();
-
-	prompt.get(schema, cb);
-
-	function cb(err, res){
-		var filename = res.filename;
-
+	function doit(filename, no_district_match){
 		if (files.indexOf(filename) == -1) {
 			console.log("That file doesn't exist. Try again.");
 			process.exit();
 		}
 
-		if (res.no_district_match.toUpperCase() !== "Y" && res.no_district_match.toUpperCase() !== "N"){
+		if (no_district_match.toUpperCase() !== "Y" && no_district_match.toUpperCase() !== "N"){
 			console.log("You must enter either Y or N for the matching question.");
 			process.exit();
 		}
@@ -44,7 +67,7 @@ select.select(obj => {
 		var cols = Object.keys(lookup[0]);
 		data.forEach(d => {
 			var m = [];
-			if (res.no_district_match.toUpperCase() == "N"){
+			if (no_district_match.toUpperCase() == "N"){
 				m = lookup.filter(f => f.constituency == d.constituency && f.district == d.district)[0];	
 			} else {
 				m = lookup.filter(f => f.constituency == d.constituency)[0];	
@@ -56,7 +79,6 @@ select.select(obj => {
 		});
 		console.log(path + "/" + filename + " now has the constituency numbers.");
 		io.writeDataSync(path + "/" + filename, data);
-
 	}
 
 });
