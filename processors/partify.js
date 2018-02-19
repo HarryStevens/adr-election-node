@@ -9,39 +9,47 @@ select.select(obj => {
 	var path = "data/" + jz.str.toSlugCase(obj.state) + "/" + obj.year;
 	var files = fs.readdirSync(path).filter(d => d !== ".DS_Store");
 
-	var schema = {
-		properties: {
-			filename: {
-				required: true,
-				message: "Whats the file name? Your options are:\n" + files.join("\n")
+	if (files.length == 0){
+		console.log("No files in " + path);
+		process.exit();
+	} else if (files.length == 1){
+		doit(files[0]);
+	} else {
+		var schema = {
+			properties: {
+				filename: {
+					required: true,
+					message: "Whats the file name? Your options are:\n" + files.join("\n")
+				}
 			}
 		}
+
+		prompt.start();
+
+		prompt.get(schema, (err, res) =>{
+			if (err) throw err;
+
+			doit(res.filename);
+		});
 	}
 
-	prompt.start();
-
-	prompt.get(schema, cb)
-
-	function cb(err, res){
-		if (err) throw err;
-
-		var filename = res.filename;
-
+	function doit(filename){
 		if (files.indexOf(filename) == -1) throw Error("That file doesn't exist. Try again.")
 
-		var data = io.readDataSync(path + "/" + filename);
+			var data = io.readDataSync(path + "/" + filename);
 
-		data.forEach(row => {
+			data.forEach(row => {
 
-			var type = pt.getType(row.party);
-			row.party_eci = type == "abbr" ? pt.convert(row.party) : row.party;
-			return row;
+				var type = pt.getType(row.party);
+				row.party_eci = type == "abbr" ? pt.convert(row.party) : row.party;
+				return row;
 
-		});
+			});
 
-		console.log(path + "/" + filename + " has been partified!")
+			console.log(path + "/" + filename + " has been partified!")
 
-		io.writeDataSync(path + "/" + filename, data);
+			io.writeDataSync(path + "/" + filename, data);
 	}
-})
+
+});
 

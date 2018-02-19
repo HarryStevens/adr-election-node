@@ -38,6 +38,7 @@ module.exports.go = function(obj, callback){
 			});
 			io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", out);
 			console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv");
+			callback(obj);
 		} else {
 			rows.each((i, d) => {
 
