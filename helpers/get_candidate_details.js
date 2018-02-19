@@ -1,9 +1,9 @@
 var io = require("indian-ocean"),
   _ = require("underscore"),
-  select = require("../helpers/select_election.js"),
   request = require("request"),
   cheerio = require("cheerio"),
-  jz = require("jeezy");
+  jz = require("jeezy"),
+  fsz = require("fsz")
 
 _.rateLimit = function(func, rate, async) {
   var queue = [];
@@ -33,14 +33,17 @@ _.rateLimit = function(func, rate, async) {
   };
 };
 
-var data = [];
+var indexes_scraped = []; // once we scrape all the indexes, we can call the callback.
 
-select.select(cb);
+module.exports.go = function(object, callback){
+  var data = [];
 
-function cb(object){
   var state = object.state,
     year = object.year,
     id = object.id;
+
+  fsz.mkdirIf(jz.str.toSlugCase(state), "data");
+  fsz.mkdirIf(year, "data/" + jz.str.toSlugCase(state));
 
   console.log("Scraping candidate details from the " + year + " " + state + " election.");
 
@@ -57,7 +60,7 @@ function cb(object){
 
           console.log("Rows: ", rows.length);
 
-          var scrape_row_limited = _.rateLimit(scrape_row, 1000);
+          var scrape_row_limited = _.rateLimit(scrape_row, 500);
 
           rows.each(function(row_index, row){
 
@@ -78,17 +81,27 @@ function cb(object){
             cells.each(function(cell_index, cell){
 
               var cell_text = $(cell).text().trim();
-
-              if (cell_index == 1){
+              
+              if (cell_index == 1) {
                 obj.candidate_name = cell_text;
                 obj.url = "http://myneta.info/" + id + "/" + $(cell).find("a").attr("href");
               } else if (cell_index == 2){
                 obj.constituency = cell_text;
               } else if (cell_index == 3){
                 obj.party = cell_text;
+              } else if (cell_index == 4){
+                obj.criminal_cases = cell_text;
+              } else if (cell_index == 5){
+                obj.education = cell_text;
+              } else if (cell_index == 6){
+                obj.assets = getNumberFromCol(cell_text);
+              } else if (cell_index == 7){
+                obj.liabilities = getNumberFromCol(cell_text);
               }
 
             });
+
+            obj.net_assets = obj.assets - obj.liabilities;
 
             request(obj.url, function(error, response, body){
 
@@ -98,7 +111,9 @@ function cb(object){
 
                 // get if they won
                 var name_text = $(".main-title").text().trim();
-                obj.winner = name_text.indexOf("(Winner)") != -1 ? true: false;
+                obj.winner = name_text.indexOf("(Winner)") != -1 ? true : false;
+
+                obj.district = $("#main > div > div.items > a:nth-child(3)").text().trim();
 
                 // more info
                 var columns0 = ["party", "so_do", "age", "address", "email", "phone"]
@@ -130,9 +145,30 @@ function cb(object){
                 console.log(pct.toFixed(2) + "%");
 
                 data.push(obj);
+                indexes_scraped.push(row_index);
 
                 // don't write till the end
-                if (pct > 90) io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", data);  
+                if (row_index == rows.length - 1) {
+
+                  console.log("Got to last candidate. Checking if all candidates have been scraped...");
+                  var interval = setInterval(function(){
+
+                    var done = jz.arr.sortNumbers(indexes_scraped).every(function(d, i){
+                      return i !== 0 ? d - indexes_scraped[i - 1] == 1 : i == 0;
+                    });
+                    
+                    if (done){
+                      console.log("All candidates have been scraped.");
+                      clearInterval(interval);
+                      io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", data);
+                      callback(object);
+                    } else {
+                      console.log("All candidates have not been scraped yet. Checking again in 3 seconds...");
+                    }
+
+                  }, 3000);
+                  
+                }
                 
               } else {
                 console.log("Error scraping " + obj.url);
@@ -151,4 +187,8 @@ function cb(object){
     }
   });
 
+}
+
+function getNumberFromCol(txt){
+  return txt == "Nil" ? 0 : +jz.str.replaceAll(txt.split("Rs")[1].split(" ~")[0], ",", "").trim();
 }

@@ -7,7 +7,7 @@ var io = require("indian-ocean"),
 
 select.select(obj => {
 	var path = "data/" + jz.str.toSlugCase(obj.state) + "/" + obj.year;
-	var files = fs.readdirSync(path);
+	var files = fs.readdirSync(path).filter(d => d !== ".DS_Store");
 
 	var schema = {
 		properties: {

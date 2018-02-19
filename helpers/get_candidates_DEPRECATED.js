@@ -6,10 +6,7 @@ var request = require("request"),
 	_ = require("underscore"),
 	fsz = require("fsz")
 
-function lookupAc(id, constituency){
-	var lookup = require("../meta_data/constituency_lookup/" + id);
-	return _.where(lookup, {constituency: constituency})[0];
-}
+
 function getNumberFromCol(txt){
 	return txt == "Nil" ? 0 : +jz.str.replaceAll(txt.split("Rs")[1].split(" ~")[0], ",", "").trim();
 }
@@ -67,17 +64,6 @@ module.exports.go = function(obj, callback){
 
 					candidate.net_assets = candidate.assets - candidate.liabilities;
 
-					var constituency_info = lookupAc(id, candidate.constituency);
-
-					if (constituency_info == undefined){
-						console.log("Can't find " + candidate.constituency + " in " + "meta_data/constituency_lookup/" + id + ".js. Check the file and try again.");
-						process.exit();
-					}
-
-					var keys = Object.keys(constituency_info);
-					keys.forEach(key => {
-						candidate[key] = constituency_info[key];
-					});
 					out.push(candidate);
 
 					fsz.mkdirIf(jz.str.toSlugCase(state), "data");

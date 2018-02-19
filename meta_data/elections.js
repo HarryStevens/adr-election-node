@@ -20,5 +20,13 @@ module.exports = [
 	{state: "Andhra Pradesh", year: "2009", id: "ap09", table_index: 2},
 	{state: "Arunachal Pradesh", year: "2004", id: "an2004", table_index: 2},
 	{state: "Arunachal Pradesh", year: "2009", id: "an2009", table_index: 2},
-	{state: "Arunachal Pradesh", year: "2014", id: "arunachal2014", table_index: 2}
+	{state: "Arunachal Pradesh", year: "2014", id: "arunachal2014", table_index: 2},
+	{state: "Assam", year: "2006", id: "assam2006", table_index: 2},
+	{state: "Assam", year: "2011", id: "assam2011", table_index: 2},
+	{state: "Assam", year: "2016", id: "assam2016", table_index: 2},
+	{state: "Bihar", year: "2005", id: "bih2005", table_index: 2},
+	{state: "Bihar", year: "2010", id: "bih2010", table_index: 2},
+	{state: "Bihar", year: "2015", id: "bihar2015", table_index: 2},
+	{state: "Puducherry", year: "2016", id: "puducherry2016", table_index: 2},
+	{state: "Puducherry", year: "2006", id: "pond2006", table_index: 2}
 ]
