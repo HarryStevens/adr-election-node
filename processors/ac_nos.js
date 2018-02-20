@@ -73,7 +73,7 @@ select.select(obj => {
 				m = lookup.filter(f => f.constituency == d.constituency)[0];	
 			}
 			if (m == undefined) {
-				console.log(d.constituency + " constituency is missing from your lookup table! Add it and try again.");
+				console.log("ERROR: " + d.constituency + " constituency is missing from your lookup table! Add it and try again.");
 				process.exit();
 			}
 			cols.forEach(c => {
