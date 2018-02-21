@@ -15,7 +15,7 @@ node scrapers/index.js # get details of all candidates for an election
 ```
 
 ### Processors
-After you've run the scrapers, you can run the processors.
+After you've run the scrapers, you can run the processors. These are not necessary, but they are useful if you want to match this data with other datasets.
 ```bash
 node processors/ac_nos.js # add assembly constituency numbers (and any other properties you like) from a lookup table, which can be found in meta_data/constituency_lookup. see #2 below.
 node processors/partify.js # get party full names (all the parties need to be added to party-time first)
