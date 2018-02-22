@@ -11,7 +11,7 @@ function cb(object){
 	
 	var file_start = "data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year;
 	var candidates = io.readDataSync(file_start + "_candidates.csv");
-	var details = io.readDataSync(file_start + "_candidate-details.csv");
+	var details = io.readDataSync(file_start + "_candidates_MASTER.csv");
 
 	var merged = jz.arr.merge(candidates, details, "url");
 	merged = jz.arr.removeProperty(merged, ["candidate_name2", "url2", "constituency2", "party2"])

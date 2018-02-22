@@ -52,9 +52,12 @@ module.exports.go = function(object, callback){
 
       var $ = cheerio.load(body);
 
-      $("table").each(function(table_index, table){
+      var tables = $("table");
 
-        if (table_index == object.table_index){
+      tables.each(function(table_index, table){
+
+        // get the last table, which has the candidates
+        if (table_index == tables.length - 1){
 
           var rows = $(table).find("tr");
 
@@ -160,7 +163,7 @@ module.exports.go = function(object, callback){
                     if (done){
                       console.log("All candidates have been scraped.");
                       clearInterval(interval);
-                      io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", data);
+                      io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv", data);
                       callback(object);
                     } else {
                       console.log("All candidates have not been scraped yet. Checking again in 3 seconds...");

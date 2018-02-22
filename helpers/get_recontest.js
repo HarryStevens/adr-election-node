@@ -9,7 +9,7 @@ module.exports.go = function(obj, callback){
 		year = obj.year,
 		id = obj.id;
 
-	var out = io.readDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv");
+	var out = io.readDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv");
 
 	var url = require("./get_url").recontest(id);
 
@@ -36,8 +36,8 @@ module.exports.go = function(obj, callback){
 				d.recontest_remarks = "";
 				return d;
 			});
-			io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", out);
-			console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv");
+			io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv", out);
+			console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv");
 			callback(obj);
 		} else {
 			rows.each((i, d) => {
@@ -84,9 +84,9 @@ module.exports.go = function(obj, callback){
 			        	if (!row[key]) row[key] = "";
 			        });
 						});
-						io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", out);
+						io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv", out);
 						
-						console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv");
+						console.log("Scraper done. File: data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv");
 						callback(obj);
 					};
 

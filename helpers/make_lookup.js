@@ -10,7 +10,7 @@ function doit(obj){
 	// first, check to see if it exists
 	if (fs.readdirSync("meta_data/constituency_lookup").indexOf(id + ".js") == -1){
 		console.log("It looks like you don't have a lookup table for " + id + " yet. Making it now...");
-		var data = io.readDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv");
+		var data = io.readDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv");
 		var out = [];
 
 		var districts = jz.arr.uniqueBy(data, "district");

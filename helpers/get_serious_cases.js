@@ -9,7 +9,7 @@ module.exports.go = function(obj, callback){
 		year = obj.year,
 		id = obj.id;
 
-	var out = io.readDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv");
+	var out = io.readDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv");
 
 	var url = require("./get_url").serious_cases(id);
 
@@ -34,7 +34,7 @@ module.exports.go = function(obj, callback){
 						d.serious_criminal_cases = "";
 						return d;
 					});
-					io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", out);
+					io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv", out);
 					callback(obj);
 				} else {
 					rows.each((row_index, row) => {
@@ -55,7 +55,7 @@ module.exports.go = function(obj, callback){
 							out.forEach(row => {
 								if(!row.serious_criminal_cases) row.serious_criminal_cases = "false";
 							});
-							io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidate-details.csv", out);
+							io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv", out);
 							callback(obj);
 						};
 					});
