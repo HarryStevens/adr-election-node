@@ -66,5 +66,21 @@ module.exports = [
 	{state: "Punjab", year: "2012", id: "pb2012"},
 	{state: "Punjab", year: "2017", id: "punjab2017"},
 	{state: "Rajasthan", year: "2013", id: "rajasthan2013"},
-	{state: "Rajasthan", year: "2008", id: "rj2008"}
+	{state: "Rajasthan", year: "2008", id: "rj2008"},
+	{state: "Sikkim", year: "2004", id: "sikkim2004"},
+	{state: "Sikkim", year: "2009", id: "sikkim2009"},
+	{state: "Sikkim", year: "2014", id: "sikkim2014"},
+	{state: "Tamil Nadu", year: "2006", id: "tn2006"},
+	{state: "Tamil Nadu", year: "2011", id: "tamilnadu2011"},
+	{state: "Tamil Nadu", year: "2016", id: "tamilnadu2016"},
+	{state: "Telangana", year: "2014", id: "telangana2014"},
+	{state: "Uttarakhand", year: "2007", id: "utk07"},
+	{state: "Uttarakhand", year: "2012", id: "utt2012"},
+	{state: "Uttarakhand", year: "2017", id: "uttarakhand2017"},
+	{state: "Uttar Pradesh", year: "2007", id: "up2007"},
+	{state: "Uttar Pradesh", year: "2012", id: "up2012"},
+	{state: "Uttar Pradesh", year: "2017", id: "uttarpradesh2017"},
+	{state: "West Bengal", year: "2006", id: "wb2006"},
+	{state: "West Bengal", year: "2011", id: "westbengal2011"},
+	{state: "West Bengal", year: "2016", id: "westbengal2016"}
 ]

@@ -1,0 +1,376 @@
+state,year,constituency,ac_no,district,sub_region,reservations,candidate_name,party,party_eci,url,winner,gender,age,so_do,address,profession,spouse_profession,criminal_cases,serious_criminal_cases,education,assets,liabilities,net_assets,filed_itr,declared_pan,recontest_url,recontest_assets_this,recontest_assets_last,recontest_assets_change,recontest_remarks
+Kerala,2006,Mala,62,Thrissur,NA,GEN,A K CHANDRAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=113,true,Male,59,KUNNIPENNU,CHALAKUDI,,,0,false,10th Pass,815962,123225,692737,,false,,,,,
+Kerala,2006,Devicolam,83,Idukki,NA,SC,A K MONI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=162,false,Male,51,KADAKKATAI,ETTUMUTHI LINE TOP STATION ROAD,,,0,false,10th Pass,140327,0,140327,,false,,,,,
+Kerala,2006,Balusseri,22,Kozhikode,NA,GEN,A K SASEENDRAN,NCP,Nationalist Congress Party,http://myneta.info/ker2006/candidate.php?candidate_id=45,true,Male,60,kunchambu,"varsha , kannur-6",,,0,false,Graduate Professional,1961241,0,1961241,,false,,,,,
+Kerala,2006,Calicut- I,24,Kozhikode,NA,GEN,A PRADEEP KUMAR,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=41,true,Male,41,GOPAKRISHNAN,VINAYAM HOUSE,,,15,true,12th Pass,488279,0,488279,,false,,,,,
+Kerala,2006,Changanacherry,89,Kottayam,NA,GEN,A V RUSSEL,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=184,false,Male,44,VASAPPAN,ANGILLIMOOTIL,,,1,true,12th Pass,3332798,439000,2893798,,false,,,,,
+Kerala,2006,Alwaye,76,Ernakulam,NA,GEN,A M YOUSUF,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=141,true,Male,54,MARICKAR,"ANAPARAMBIL,MULLEPADAM
+KALAVASSERIL",,,0,false,Literate,3181177,450000,2731177,,true,,,,,
+Kerala,2006,Alathur,53,Palakkad,NA,GEN,A. RAGHAVAN,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=102,false,Male,62,ARUMUGHAN,"CHITTILAMCHERI
+CHORAMKULAM VEETIL
+ALATHOOR",,,0,false,5th Pass,2067140,85039,1982101,,false,,,,,
+Kerala,2006,Eravipuram,125,Kollam,NA,GEN,A.A. AZEEZ,RSP,Revolutionary Socialist Party,http://myneta.info/ker2006/candidate.php?candidate_id=225,true,Male,64,ALIYAR KUNJU,"KALILAYIKATHU VEEDU,VADAKKUMKARA KIZAKACHERI,KOLLAM",,,0,false,10th Pass,667305,77686,589619,,false,,,,,
+Kerala,2006,Wadakkancherry,55,Thrissur,NA,GEN,A.C.MOIDEEN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=127,true,Male,50,AAKAPARAMBIL FATHIMA,,,,2,false,10th Pass,15000,0,15000,,false,,,,,
+Kerala,2006,Coyalmannam,52,Palakkad,NA,SC,A.K. BALAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=83,true,Male,55,KELAPPAN,"JANANI, PARAKKUNNAM, PALAKKAD",,,2,false,Graduate Professional,3336277,0,3336277,,false,,,,,
+Kerala,2006,Manjeri,33,Malappuram,NA,GEN,A.P ABDUL WAHAB,INL,Indian National League,http://myneta.info/ker2006/candidate.php?candidate_id=76,false,Male,47,ABDU RAHIMAN,"THENJIPPALATHI HOUSE,NILAMBUR",,,0,false,Post Graduate,874797,12000,862797,,true,,,,,
+Kerala,2006,Palghat,49,Palakkad,NA,GEN,A.V. GOPINATHAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=90,false,Male,46,CA MOOTHAN,"24/65, 
+NOORATHI GRAMATHIL",,,0,false,10th Pass,477200,0,477200,,false,,,,,
+Kerala,2006,Konni,113,Pathanamthitta,NA,GEN,ADOOR PRAKASH,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=219,true,Male,33,KUNJIRAMAN/ SATHYA SHEELAN,PLAVILA VADAKKETHIL,,,0,false,10th Pass,178500,0,178500,,false,,,,,
+Kerala,2006,Peringalam,13,Kannur,NA,GEN,ABDUL KHADER S/O MUHAMMED,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=16,false,Male,68,MUHAMMED,ALVALAH,,,0,false,5th Pass,653500,0,653500,,false,,,,,
+Kerala,2006,Tanur,37,Malappuram,NA,GEN,ABDURAHIMAN RANDATHANI,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=67,true,Male,44,VAKKEN MUHAMMAD HAJI,"THOZHANNUR,
+RANDATHANNI POST",,,0,false,10th Pass,3028203,925524,2102679,,false,,,,,
+Kerala,2006,Varkala,127,Thiruvananthapuram,NA,GEN,ADV  S  SUNDARESAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=254,false,Male,55,SHIVADASAN,"SUNITHA, VETTIMANKONAM
+THOTTAKKADE PO
+KALLAMBHALAM",,,2,false,Graduate Professional,1207560,0,1207560,,true,,,,,
+Kerala,2006,Trivandrum North,134,Thiruvananthapuram,NA,GEN,ADV K MOHANKUMAR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=266,false,Male,50,KUNJAN PILLA,"CRA-47
+THARU GARDENS, PATTOM",,,0,false,Post Graduate,1641928,10000,1631928,,false,,,,,
+Kerala,2006,Kunnathunad,78,Ernakulam,NA,GEN,ADV M M  MONAYI,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=137,true,Male,50,Mathappan,ayambala,,,0,false,Post Graduate,4137611,0,4137611,,true,,,,,
+Kerala,2006,Wandoor,31,Malappuram,NA,SC,A.P. ANILKUMAR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=57,true,Male,41,Balan,Akkarapurackal,,,0,false,12th Pass,2971639,0,2971639,,false,,,,,
+Kerala,2006,Kovalam,138,Thiruvananthapuram,NA,GEN,ADV GEORGE MERCIER,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=257,true,Male,53,PLUS MERCIER,TC 15/640 KALYANI KANNAMOOLA TRIVANDRUM,,,0,false,Post Graduate,4188459,2279340,1909119,,true,,,,,
+Kerala,2006,Narakal,71,Ernakulam,NA,SC,ADV P V SREENIJAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=150,false,Male,30,VASU,ALUVA,,,0,false,Graduate Professional,463000,0,463000,,false,,,,,
+Kerala,2006,Thodupuzha,82,Idukki,NA,GEN,ADV P T THOMAS,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=160,false,Male,55,P T THOMAS,"PUTHIYAPARAMBIL HOUSE 
+THODUPZHA",,,0,false,Post Graduate,2466233,301144,2165089,,false,,,,,
+Kerala,2006,Karunagapally,121,Kollam,NA,GEN,ADV. A N RAJAN BABU,JPSS,JPSS,http://myneta.info/ker2006/candidate.php?candidate_id=234,false,Male,57,P.NARAYANAN,"49/2349
+COCHIN",,,0,false,Graduate Professional,6686064,50000,6636064,,false,,,,,
+Kerala,2006,Kottarakara,117,Kollam,NA,GEN,ADV. AISHA POTTI,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=239,true,Female,47,SANKARAN POTTI,SREESANKARAM,,,1,false,Post Graduate,1138663,0,1138663,,false,,,,,
+Kerala,2006,Ambalapuzha,101,Alappuzha,NA,GEN,ADV. D.SUGATHAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=198,false,Male,48,N.DAMODARAN,AMBALAPPUZHA,,,0,false,Graduate Professional,2441380,500000,1941380,,true,,,,,
+Kerala,2006,Aroor,97,Alappuzha,NA,GEN,ADV. A.M.ARIFF,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=189,true,Male,43,ABDUL MAJEED,"109 AROOR ,
+ARUNYAM",,,14,false,Graduate Professional,1555860,0,1555860,,true,,,,,
+Kerala,2006,Attingal,128,Thiruvananthapuram,NA,GEN,ADV. C MOHANACHANDRAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=278,false,Male,55,Chellapan,"sudha bhavan
+128 attingal",,,0,false,Graduate Professional,4560716,863629,3697087,,false,,,,,
+Kerala,2006,Peermade,86,Idukki,NA,GEN,ADV. E M AUGASTHY,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=168,false,Male,55,Late Mathai,"Edamanakunnel House,20th Acre,Kattappana",,,0,false,Graduate Professional,3953439,0,3953439,,false,,,,,
+Kerala,2006,Muvattupuzha,80,Ernakulam,NA,GEN,ADV. JOHNY NELLOOR,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=134,false,Male,55,VARKEY,"NELLOR HOUSE
+MVATTUPUZHA",,,1,false,Graduate Professional,5554900,1993,5552907,,true,,,,,
+Kerala,2006,Pathanamthitta,112,Pathanamthitta,NA,GEN,ADV. K SIVADASAN NAIR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=217,true,Male,57,Kesava Pillai,"Siva Madom, Aranmula",,,0,false,Post Graduate,1338523,0,1338523,,true,,,,,
+Kerala,2006,Ettumanoor,91,Kottayam,NA,GEN,ADV. K.S.KRISHNANKUTTY NAIR,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=180,false,Male,44,SIVARAMAN NSIR,"PARATHANATHU, KIDANGOOR",,,5,false,Post Graduate,1004324,20000,984324,,false,,,,,
+Kerala,2006,Kaduthuruthy,95,Kottayam,NA,GEN,ADV. MONS JOSEPH,KEC,KEC,http://myneta.info/ker2006/candidate.php?candidate_id=171,true,Male,41,O.JOSEPH,"PUREKKOOL
+KADUTHURUTHY
+KOTTAYAM",,,0,false,Graduate Professional,1397104,0,1397104,,false,,,,,
+Kerala,2006,Sreekrishnapuram,46,Palakkad,NA,GEN,ADV. K.P. ANILKUMAR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=96,false,Male,33,DAMODARAN,MANOJ NIVAS,,,2,false,Graduate Professional,398559,153300,245259,,true,,,,,
+Kerala,2006,Vamanapuram,130,Thiruvananthapuram,NA,GEN,ADV. S. SHINE,JPSS,JPSS,http://myneta.info/ker2006/candidate.php?candidate_id=274,false,Male,37,Sukumaran.S,"Gangothri, TC 16/83(ll)
+jagathy
+trivandrum",,,0,false,Graduate Professional,248937,135000,113937,,false,,,,,
+Kerala,2006,Perumbavoor,77,Ernakulam,NA,GEN,ADV. SHANI MOL USMAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=140,false,Female,39,USMAN,"ALISSERY WARD
+POOPARAMBIL",,,0,false,Post Graduate,1757700,0,1757700,,false,,,,,
+Kerala,2006,Ranni,111,Pathanamthitta,NA,GEN,ADV. PEELIPOSE THOMAS,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=216,false,Male,57,THOMAS PHILIP,"KIZHAKKEL HOUSE,PULLADU PO,
+KOIPURAM VILLAGE",,,0,false,Graduate Professional,3514267,498444,3015823,,true,,,,,
+Kerala,2006,Poonjar,93,Kottayam,NA,GEN,ADV. T V ABRAHAM KAIPANPLACKAL,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=176,false,Male,52,LATE VARKEY,"KAIPPENPLACKAL HOUSE, ERATTUPETTA VILL- ERATTUPETTA MEENACHIL TALUK DISS- KOTTAYAM",,,0,false,Post Graduate,6652500,157000,6495500,,false,,,,,
+Kerala,2006,Parur,70,Ernakulam,NA,GEN,ADV. V D SATHEESAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=151,true,Male,41,K Damodara menon,"Devaragam ,paravoor",,,0,false,Post Graduate,2912272,275802,2636470,,true,,,,,
+Kerala,2006,Trikkarpur,5,Kasaragod,NA,GEN,ADV. VAMANA KUMAR A V,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=10,false,Male,42,KUNHIRAMAN NAIR CK,"PALLIKARA,NILESHWAR",,,0,false,Post Graduate,1072523,0,1072523,,true,,,,,
+Kerala,2006,Haripad,103,Alappuzha,NA,GEN,ADV.B.BABUPRASAD,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=201,true,Male,40,BABUPRASAD,District - Alappuzha,,,1,false,Graduate Professional,1135150,0,1135150,,false,,,,,
+Kerala,2006,Vaikom,96,Kottayam,NA,SC,ADV. V P SAJEENDRAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=188,false,Male,36,PADMANABHAN,"VALLOTHIYAMALA HOUSE
+ANICKAD EAST PO
+KOTTAYAM",,,0,false,Graduate Professional,2120399,617484,1502915,,true,,,,,
+Kerala,2006,Kayamkulam,104,Alappuzha,NA,GEN,ADV.C.R.JAYAPRAKASH,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=204,false,Male,58,RAGAVAN,"ashwathi,chirakadavam,kayamkulam",,,1,false,Graduate Professional,4604174,0,4604174,,false,,,,,
+Kerala,2006,Kodungallur,67,Thrissur,NA,GEN,ADV.K.P.RAJENDRAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=129,true,Male,49,PRABHAKARAN,"KUNNATHU VEETIL, PUKUNNAM PO",,,2,true,Graduate Professional,12060896,0,12060896,,false,,,,,
+Kerala,2006,Kodakara,60,Thrissur,NA,GEN,ADV.K.P.VISWANATHAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=118,false,Male,65,KALLAYIL PANGAN,KALLAYIL HOUSE,,,2,false,Graduate Professional,16383924,0,16383924,,false,,,,,
+Kerala,2006,Kuthuparamba,14,Kannur,NA,GEN,ADV.SAJEEV JOSEPH,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=13,false,Male,34,Joseph,"Anand bhavan,P.O - Nuchiyad,Ullikal",,,0,false,Graduate Professional,118913,62922,55991,,false,,,,,
+Kerala,2006,Trichur,58,Thrissur,NA,GEN,ADV.THERAMBIL RAMAKRISHNAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=121,true,Male,62,KRISHNA MENON,KRISHNA KRIPA,,,0,false,Graduate,3804555,0,3804555,,false,,,,,
+Kerala,2006,Punaloor,115,Kollam,NA,GEN,ADV.K.RAJU,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=243,true,Male,52,KARUNAKARAN,PUTHAN PURAVEETIL,,,1,false,Graduate,1044078,250000,794078,,true,,,,,
+Kerala,2006,Irinjalakuda,63,Thrissur,NA,GEN,ADV.THOMAS UNNIYADAN,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=111,true,Male,47,Joseph,"Irinjalakuda
+unniyadathu veethil",,,0,false,Graduate Professional,4276759,1845085,2431674,,false,,,,,
+Kerala,2006,Kunnamkulam,56,Thrissur,NA,GEN,ADV.V .BALARAM,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=126,false,Male,59,VELLOR RAMAN NAIR,GURUVAYOOR,,,0,false,Graduate Professional,4091337,662759,3428578,,true,,,,,
+Kerala,2006,Cherpu,57,Thrissur,NA,GEN,ADV.V.S.SUNILKUMAR,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=123,true,Male,NaN,Velichapattu Subramanian,,,,4,true,Graduate Professional,268944,0,268944,,false,,,,,
+Kerala,2006,Calicut- I,24,Kozhikode,NA,GEN,ADVOCATE A SUJANAPAL,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=42,false,Male,57,BALAGOPAL,"GOPALAPURAM,KOZHIKODE",,,1,false,Graduate Professional,3176713,0,3176713,,true,,,,,
+Kerala,2006,Irikkur,6,Kannur,NA,GEN,ADVOCATE K C JOSEPH,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=11,true,Male,59,K.M Chacko,"Karavelikara,vVadavalthoor,P.o.kottayam",,,0,false,Post Graduate,3776131,276640,3499491,,true,,,,,
+Kerala,2006,Badagara,17,Kozhikode,NA,GEN,ADVOCATE M K PREMNATH,JD(S),Janata Dal (Secular),http://myneta.info/ker2006/candidate.php?candidate_id=33,true,Male,51,NARAYANA KKURUPP,"KUNNAMBATH HOUSE, BADAGARA",,,1,false,Post Graduate,11284384,0,11284384,,false,,,,,
+Kerala,2006,Nadapuram,18,Kozhikode,NA,GEN,ADVOCATE M VEERANKUTTY,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=54,false,Male,58,kalandan kutty,"jawahar miladiyil, jawahar nagar",,,1,false,Graduate Professional,3314310,0,3314310,,false,,,,,
+Kerala,2006,Malappuram,34,Malappuram,NA,GEN,ADVOCATE M. UMMER,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=73,true,Male,52,MOIDEEN KANAV,"KANAV HOUSE ,MALAPPURAM",,,0,false,Graduate Professional,2528351,0,2528351,,false,,,,,
+Kerala,2006,Calicut- II,25,Kozhikode,NA,GEN,ADVOCATE P M A SALAM,INL,Indian National League,http://myneta.info/ker2006/candidate.php?candidate_id=39,true,Male,53,MUHAMMAD HAJI,"PEECHIMANNIL HOUSE, CALICUT-II",,,0,false,Graduate Professional,2370500,0,2370500,,false,,,,,
+Kerala,2006,Quilandy,20,Kozhikode,NA,GEN,ADVOCATE P SANKARAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=50,false,Male,58,P.KELU NAIR,"PUTHIYOTTIL
+PERAMBRA",,,3,false,Post Graduate,6611407,1685662,4925745,,true,,,,,
+Kerala,2006,Koduvally,23,Kozhikode,NA,GEN,ADVOCATE P T A RAHIM,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=43,true,Male,57,ISMAYIL KUTTY HAJI,"MISFA, 023 KODUVALLY",,,0,false,Graduate Professional,2440500,0,2440500,,false,,,,,
+Kerala,2006,Kottayam,90,Kottayam,NA,GEN,AJAY THARAYIL,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=182,false,Male,48,KUMARAN,"THARAYIL HOUSE,
+MOOTHAKUNNAM PO
+EARNAKULAM",,,0,false,Graduate,1849027,50000,1799027,,false,,,,,
+Kerala,2006,Kanjirappally,87,Kottayam,NA,GEN,ALPHONS KANNANTHANAM,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=169,true,Male,52,JOSEPH,KANNANTHANAM VEETHIL,,,0,false,Graduate Professional,1920000,2100000,-180000,,true,,,,,
+Kerala,2006,Malappuram,34,Malappuram,NA,GEN,ADVOCATE P.M. SAFARULLA,JD(S),Janata Dal (Secular),http://myneta.info/ker2006/candidate.php?candidate_id=74,false,Male,46,MUHAMMED KUNHI,MANCHERI,,,0,false,Graduate Professional,2505990,50000,2455990,,true,,,,,
+Kerala,2006,Attingal,128,Thiruvananthapuram,NA,GEN,ANATHALAVATTOM ANANDAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=277,true,Male,68,KRISHNAN,ANANDA BHAVAN PO-CHIRAYINKIL,,,2,true,10th Pass,2502156,1410720,1091436,,false,,,,,
+Kerala,2006,Nilambur,32,Malappuram,NA,GEN,ARYADAN MUHAMMED,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=77,true,Male,67,UNNEEN,"ARYADAN VEETTIL, NILAMBUR",,,0,false,10th Pass,293959,0,293959,,true,,,,,
+Kerala,2006,Chalakudi,61,Thrissur,NA,GEN,B D DEVASSY,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=115,true,Male,55,DEVASSY,"kunnnikkuru veethil
+bhramakulam",,,5,false,10th Pass,392000,0,392000,,false,,,,,
+Kerala,2006,Trivandrum East,136,Thiruvananthapuram,NA,GEN,B VIJAYAKUMAR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=262,false,Male,57,BASHKARAN NAIR,"SREEVIDHYA
+SHATHAMANGALAM",,,0,false,Graduate,4200038,0,4200038,,false,,,,,
+Kerala,2006,Neduvathur,118,Kollam,NA,SC,B. RAGHAVAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=237,true,Male,53,BHARADHAN,"RAGHI ,NEDUVATHUR",,,0,false,Graduate,430147,0,430147,,false,,,,,
+Kerala,2006,Quilon,124,Kollam,NA,GEN,BABU DIVAKARAN,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=228,false,Male,53,T K DIVAKARAN,SANTHALAYAM,,,0,false,Graduate Professional,2154259,0,2154259,,false,,,,,
+Kerala,2006,Kunnamkulam,56,Thrissur,NA,GEN,BABU M PALISSERY,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=125,true,Male,47,Mullath Chennapan Nair,mullathu veethil,,,3,true,10th Pass,949767,250000,699767,,false,,,,,
+Kerala,2006,Muvattupuzha,80,Ernakulam,NA,GEN,BABU PAUL,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=133,true,Male,50,Paulos,vengasherry,,,1,false,Graduate,2105343,0,2105343,,false,,,,,
+Kerala,2006,Nadapuram,18,Kozhikode,NA,GEN,BINOY VISWAM,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=53,true,Male,NaN,vishwanadan,,,,3,false,Graduate Professional,245919,0,245919,,false,,,,,
+Kerala,2006,Manjeswar,1,Kasaragod,NA,GEN,C H KUNHAMBU,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=1,true,Male,47,ASU KARANAVAR,VIDHYA NAGAR,,,3,false,Graduate Professional,1892675,572500,1320175,,false,,,,,
+Kerala,2006,Guruvayoor,65,Thrissur,NA,GEN,C H RASHEED,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=108,false,Male,43,CHINNAKAL HAMEED,CHINNAKAL,,,0,false,Post Graduate,743032,75273,667759,,false,,,,,
+Kerala,2006,Kayamkulam,104,Alappuzha,NA,GEN,C K SADASIVAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=203,true,Male,52,KUMARAN,"104 KAYAMKULAM,",,,2,false,10th Pass,1510350,440000,1070350,,false,,,,,
+Kerala,2006,Changanacherry,89,Kottayam,NA,GEN,C F THOMAS,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=183,true,Male,66,FRANCIS,CHENNIKARA VEETHIL,,,0,false,Graduate Professional,210321,0,210321,,true,,,,,
+Kerala,2006,Palluruthy,74,Ernakulam,NA,GEN,C M DINESH MANI,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=157,true,Male,56,Madavan,vennala chanthuruthil,,,2,false,12th Pass,2153913,350000,1803913,,false,,,,,
+Kerala,2006,Kunnamangalam,27,Kozhikode,NA,SC,C P BALAN VAIDYAR,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=36,false,Male,68,unni vaikyan,"sumathi nivas, kunnamangalam",,,1,false,8th Pass,1177536,0,1177536,,false,,,,,
+Kerala,2006,Kasaragod,2,Kasaragod,NA,GEN,C T AHAMEDALI,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=3,true,Male,62,Abdulla,"Naimarmoola,P.O - Muttathody",,,0,false,10th Pass,2043244,153184,1890060,,false,,,,,
+Kerala,2006,Idukki,84,Idukki,NA,GEN,C V VARGHESE,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=164,false,Male,42,Varghese,"Challakkuzhizil,P.o - Thankamonz",,,2,false,5th Pass,329750,0,329750,,false,,,,,
+Kerala,2006,Coyalmannam,52,Palakkad,NA,SC,C. PRAKASH,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=84,false,Male,35,CHAMU,"PRAKASH BHAVAN, BADUNGUNNATHIL",,,0,false,Graduate,726236,875800,-149564,,true,,,,,
+Kerala,2006,Karunagapally,121,Kollam,NA,GEN,C.DIVAKARAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=233,true,Male,62,Sivaraman,"T.C 43/258,Deepam,Thottam,Manacaud,Trivandrum",,,4,true,Graduate Professional,3460000,0,3460000,,false,,,,,
+Kerala,2006,Irinjalakuda,63,Thrissur,NA,GEN,C.K.CHANDRAN (CHEMPARA),CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=112,false,Male,41,KUNJIKORAN,"KARALAM 
+CHENAANGATHU VEETIL",,,0,false,10th Pass,70500,12000,58500,,false,,,,,
+Kerala,2006,Taliparamba,8,Kannur,NA,GEN,C.K.P PADMANABHAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=25,true,Male,56,KUNJIRAMAN,KUNGIMANGALAM,,,4,false,5th Pass,544500,0,544500,,false,,,,,
+Kerala,2006,Sherthalai,98,Alappuzha,NA,GEN,C.K.SHAJIMOHAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=192,false,Male,51,Krishnankuty Panicker,"Shivkripa, CMC 29, Cherthala",,,0,false,Graduate Professional,1157872,218070,939802,,true,,,,,
+Kerala,2006,Pattambi,44,Palakkad,NA,GEN,C.P. MOHAMMED,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=99,true,Male,51,MUHAMMAD,"KARINGANAD, VILAYOOR",,,0,false,10th Pass,1628066,0,1628066,,false,,,,,
+Kerala,2006,Taliparamba,8,Kannur,NA,GEN,CHANDRAN THILLANKERI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=26,false,Male,38,KRISNAN,"MAVILA VEEDU,
+PADIKKACHAL",,,0,false,Graduate,388228,7900,380328,,false,,,,,
+Kerala,2006,Kallooppara,106,Pathanamthitta,NA,GEN,CHERIAN PHILIP,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=212,false,Male,52,K.C PHILIPP,"THIRUVANANTHAPURATHU , TC 13/577",,,0,false,Post Graduate,1741000,0,1741000,,false,,,,,
+Kerala,2006,Kovalam,138,Thiruvananthapuram,NA,GEN,DR. A NEELALOHITHADASAN NADAR,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=258,false,Male,58,APPI NADAR,"VEININNA PUTHEN VEEDU
+KAZHIVOOR, PO",,,0,false,Doctorate,6478632,0,6478632,,false,,,,,
+Kerala,2006,Kothamangalam,81,Ernakulam,NA,GEN,CHEV. T. U KURUVILA,KEC,KEC,http://myneta.info/ker2006/candidate.php?candidate_id=155,true,Male,69,UTHUP,"THOMPRAYIL HOUSE, CHELAD P.O-KOTHAMANGALAM VILLAGE, KOTHAMANGALAM TALUK",,,2,false,10th Pass,28380781,1053022,27327759,,true,,,,,
+Kerala,2006,Chathanoor,126,Kollam,NA,GEN,DR. G. PRATHAPAVARMA THAMPAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=246,false,Male,46,GOPALA PANICKER,PEROOR MULLAVANAM VEEETIL,,,0,false,Doctorate,3045000,153875,2891125,,true,,,,,
+Kerala,2006,Palluruthy,74,Ernakulam,NA,GEN,DOMANIC PRASENTATION,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=158,false,Male,57,FELIX,"VALIATHAYIL HOUSE SUHURO CHURCH ROAD ,KOCHI,20",,,1,false,Graduate,5245055,300000,4945055,,true,,,,,
+Kerala,2006,Kuttanad,102,Alappuzha,NA,GEN,DR. K.C.JOSEPH,KEC,KEC,http://myneta.info/ker2006/candidate.php?candidate_id=200,false,Male,NaN,,,,,0,false,Graduate Professional,4125638,700000,3425638,,false,,,,,
+Kerala,2006,Mararikulam,99,Alappuzha,NA,GEN,DR.THOMAS ISSAC,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=193,true,Male,53,mathew,"Kizakevel, Alleppy",,,3,false,Doctorate,11400,0,11400,,true,,,,,
+Kerala,2006,Mankada,41,Malappuram,NA,GEN,DR. M.K. MUNEER,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=60,false,Male,44,MOHAMED KOYA,"MEHFIL, JAFERKAN COLONY, CALICUT.",,,1,false,Graduate Professional,8718503,3049000,5669503,,true,,,,,
+Kerala,2006,Peermade,86,Idukki,NA,GEN,E S BIJIMOL,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=167,true,Female,35,RAJI,"PANTHAYOOPARAMBIL, PEERUMED",,,1,false,Graduate,359500,0,359500,,false,,,,,
+Kerala,2006,Udumbanchola,85,Idukki,NA,GEN,EBRAHIMKUTTY KALLAR,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=166,false,Male,38,MUHAMMAD RAVUTHAR,"MUNDIYERUMA, BLOCK NO 69",,,2,true,Graduate Professional,909700,64166,845534,,false,,,,,
+Kerala,2006,Beypore,26,Kozhikode,NA,GEN,ELAMARAM KAREEM,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=37,true,Male,53,ISMALUTTY,ELAMARAM HOUSE,,,4,true,12th Pass,3039507,0,3039507,,false,,,,,
+Kerala,2006,Tirur,38,Malappuram,NA,GEN,E.T MOHAMMED BASHEER,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=66,false,Male,59,MOOSA KUTTY MASTER,CHERUVAYOOR AMSHAM  MAPRAM DESHAM,,,0,false,10th Pass,500384,0,500384,,false,,,,,
+Kerala,2006,Neduvathur,118,Kollam,NA,SC,EZHUKONE NARAYANAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=238,false,Male,50,KOCHIKKA,"KUNNUVILA VETTIL
+EZHUKON",,,0,false,10th Pass,449884,300000,149884,,false,,,,,
+Kerala,2006,Chittur,50,Palakkad,NA,GEN,EZHUTHANI K. KRISHNANKUTTY,JD(S),Janata Dal (Secular),http://myneta.info/ker2006/candidate.php?candidate_id=88,false,Male,61,KUNJUKUTTY,"EZHUTHANI KULATHIL
+VANDITHAVAL VILLAGE
+CHITOOR",,,2,false,8th Pass,3905779,922832,2982947,,false,,,,,
+Kerala,2006,Nattika,66,Thrissur,NA,GEN,FATHIMA ABDUL KHADAR PAMBINEZHATH,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=106,false,Female,40,ABDUL KHADAR,KAIPPAMANGALAM PALLI PARAMBIL,,,0,false,Literate,112500,75000,37500,,false,,,,,
+Kerala,2006,Mavelikara,109,Alappuzha,NA,GEN,G.RAJAMMA,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=248,false,Female,46,KRISHNAJARI,109 MAVELIKKARA,,,1,false,10th Pass,74000,0,74000,,false,,,,,
+Kerala,2006,Ariyanad,131,Thiruvananthapuram,NA,GEN,G KARTHIKEYAN ARYANAD,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=271,true,Male,56,N.P GOPALA PILLAI,ABHAYAM B-21 SREE RANGAM LANE SASTHAMANGALAM THIRUVANANTHAPURAM,,,0,false,Graduate Professional,1715621,1002718,712903,,true,,,,,
+Kerala,2006,Ambalapuzha,101,Alappuzha,NA,GEN,G.SUDHAKARAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=197,true,Male,59,GAPALA KURUPP,101 AMBALAPPUZHA,,,6,true,Post Graduate,2273053,0,2273053,,false,,,,,
+Kerala,2006,Perinthalmanna,42,Malappuram,NA,GEN,HAMEED MASTER,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=80,false,Male,NaN,KUNCHALI MASTER,"PULIYAKKUTH ,42 PERINTHALMANNA",,,0,false,12th Pass,4931197,0,4931197,,false,,,,,
+Kerala,2006,Vamanapuram,130,Thiruvananthapuram,NA,GEN,J ARUNDHATHI,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=273,true,Female,60,N.Gopinathan,"ranjini nivas 
+thekada",,,0,false,Graduate,1553248,15786,1537462,,false,,,,,
+Kerala,2006,Irikkur,6,Kannur,NA,GEN,JAMES MATHEW,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=12,false,Male,45,N.J.MATHEW,"SUKRUTHAM,
+PALLIKUNNU PO
+KANNUR",,,8,true,Post Graduate,6089650,316258,5773392,,false,,,,,
+Kerala,2006,Perambra,21,Kozhikode,NA,GEN,JAMES THEKKANADAN,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=48,false,Male,30,thomas,"thekkanatt veettil house, permbra",,,0,false,Post Graduate,1360000,200000,1160000,,false,,,,,
+Kerala,2006,Vazhoor,88,Kottayam,NA,GEN,JAYARAJAN,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=185,true,Male,50,K.NARAYANA KURUPU,"CHERUMAKAL HOUSE
+KURACHAL VILLAGE",,,0,false,Post Graduate,2965100,75000,2890100,,true,,,,,
+Kerala,2006,Mannarkkad,47,Palakkad,NA,GEN,JOSE BABY,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=93,true,Male,47,BABY,PERIMBADARI THEKKEPARUVIL HOUSE,,,0,false,10th Pass,751000,55200,695800,,false,,,,,
+Kerala,2006,Kallooppara,106,Pathanamthitta,NA,GEN,JOSEPH M PUTHUSSERI,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=211,true,Male,46,T A MAMMAN,"MULLAPPALLY TALUK, KALLUPPARA VILLAGE ,THEKKAN NATTIL HOUSE",,,1,false,Graduate Professional,2821147,280000,2541147,,false,,,,,
+Kerala,2006,Ankamali,68,Ernakulam,NA,GEN,JOSE THETTAYIL,JD(S),Janata Dal (Secular),http://myneta.info/ker2006/candidate.php?candidate_id=131,true,Male,55,THETTAYIL THOMAS,"ANGAMALY VILLAGE
+ANGAMALLY KARAYIL",,,2,false,Graduate,2478783,0,2478783,,true,,,,,
+Kerala,2006,Alwaye,76,Ernakulam,NA,GEN,K  MUHAMMADALI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=142,false,Male,55,KOCHUNNI,"PATTARUMADOM
+CHITRA LANE
+ALWAYE",,,0,false,Graduate,2386304,0,2386304,,false,,,,,
+Kerala,2006,Chittur,50,Palakkad,NA,GEN,K ACHUTHAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=87,true,Male,56,KITTUNNI,"THATHAMANGALAM, CHALAKULATHIL",,,0,false,8th Pass,3355106,484627,2870479,,false,,,,,
+Kerala,2006,Trippunithura,75,Ernakulam,NA,GEN,K BABU,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=143,true,Male,52,Kumaran,kannu parambathu veetil,,,0,false,Graduate,3171651,0,3171651,,false,,,,,
+Kerala,2006,Balusseri,22,Kozhikode,NA,GEN,K BALAKRISHNAN KIDAVU,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=46,false,Male,48,RARUKKUTTY NAIR,JHEKKFKOOJATHINGAL,,,1,false,Graduate Professional,1850900,532796,1318104,,false,,,,,
+Kerala,2006,Edakkad,11,Kannur,NA,GEN,K C KADAMBOORAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=20,false,Male,65,CHANDUNAIR,KADAMBURI,,,1,false,12th Pass,6205497,140000,6065497,,false,,,,,
+Kerala,2006,North Wynad,16,Wayanad,NA,ST,K C KUNHIRAMAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=31,true,Male,46,CHANDU,"KAVUMATTATHILHOUSE, NORTH VAYANAD",,,8,false,8th Pass,163300,0,163300,,false,,,,,
+Kerala,2006,Meppayur,19,Kozhikode,NA,GEN,K K LATHIKA,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=51,true,Female,44,MOHANAN,"POOKKOTTU VEETTIL,KUNNUMMAL VILLAGE",,,6,false,10th Pass,1270530,60000,1210530,,false,,,,,
+Kerala,2006,Udumbanchola,85,Idukki,NA,GEN,K K JAYACHANDRAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=165,true,Male,54,KRISHNAN,KUNNATHU VEETTIL,,,0,false,10th Pass,405500,0,405500,,false,,,,,
+Kerala,2006,Azhicode,9,Kannur,NA,GEN,K K NANU,CMPKSC,CMPKSC,http://myneta.info/ker2006/candidate.php?candidate_id=24,false,Male,66,KUNJAMBU,SRINAS KANNAMGULATHIL,,,0,false,5th Pass,978000,210000,768000,,false,,,,,
+Kerala,2006,Kalpetta,29,Wayanad,NA,GEN,K K RAMACHANDRAN MASTER,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=206,false,Male,68,NARAYANAN NAMBIAY,INDISA BHAVAN KARIGAMBADI PO-MEENANGADDI,,,2,false,10th Pass,2543253,0,2543253,,false,,,,,
+Kerala,2006,Perambra,21,Kozhikode,NA,GEN,K KUNHAMMED MASTER,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=47,true,Male,56,JBRAHIM,"KURUKKOTTU HOUSE,KOILANDI TALUKE",,,3,false,10th Pass,4323851,0,4323851,,false,,,,,
+Kerala,2006,Peravoor,15,Kannur,NA,GEN,K K SHYLAJA TEACHER,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=29,true,Female,47,BASKARAN,athira,,,2,true,Graduate Professional,1026651,344488,682163,,false,,,,,
+Kerala,2006,Parur,70,Ernakulam,NA,GEN,K M DINAKARAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=152,false,Male,47,MUKUNDAN,KALAKKASERRIYIL,,,1,false,5th Pass,416272,267565,148707,,false,,,,,
+Kerala,2006,Trippunithura,75,Ernakulam,NA,GEN,K N RAVEENDRANATH,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=144,false,Male,72,NEELAKANDAPILLA,IDAPALLIYIL,,,1,false,12th Pass,12170111,0,12170111,,false,,,,,
+Kerala,2006,Peringalam,13,Kannur,NA,GEN,K P MOHANAN S/O P R KURUP,JD(S),Janata Dal (Secular),http://myneta.info/ker2006/candidate.php?candidate_id=15,true,Male,56,P R KURUP,"PATHMA NIVAS 
+PUTHUR",,,1,false,12th Pass,1534269,731600,802669,,false,,,,,
+Kerala,2006,Cannanore,10,Kannur,NA,GEN,K P SAHADEVAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=22,false,Male,68,KUNJIRAMAN,AKG NAGER HOUSING COLONY,,,9,true,5th Pass,710038,0,710038,,false,,,,,
+Kerala,2006,Aranmula,107,Pathanamthitta,NA,GEN,K R RAJAPPAN,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=214,false,Male,62,RAMACHANDRAN,CHAILHARYA AREAKARE PO-MULAKUGHA,,,0,false,10th Pass,1269413,0,1269413,,false,,,,,
+Kerala,2006,Chelakara,54,Thrissur,NA,SC,K RADHAKRISHNAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=103,true,Male,42,Kochunni,"vadakee valapil
+talapalli taluk",,,0,false,Graduate,432227,493284,-61057,,false,,,,,
+Kerala,2006,Cannanore,10,Kannur,NA,GEN,K SUDHAKARAN S/O RAMUNNI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=21,true,Male,43,GOVINDAN,vaniyakandi house,,,0,false,10th Pass,362812,0,362812,,false,,,,,
+Kerala,2006,Payyannur,7,Kannur,NA,GEN,K SURENDRAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=28,false,Male,54,KANARAN,"SOORYA, KALATHIL VEEDU,
+PALLIKUNNU",,,0,false,10th Pass,556500,0,556500,,false,,,,,
+Kerala,2006,Palai,94,Kottayam,NA,GEN,K M MANI,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=173,true,Male,74,MR MANI,KARINGOZHACKAL HOUSE VELLAPPAD PALA LALAM VILLAGE MEENACHIL TAMLUK DISS-KOTTAYAM,,,0,false,Graduate Professional,8543078,0,8543078,,true,,,,,
+Kerala,2006,Koduvally,23,Kozhikode,NA,GEN,K MURALEEDHARAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=44,false,Male,48,KARUNAKARAN,"NADAKKAV, CALICUT",,,1,true,Graduate,30936566,1526432,29410134,,true,,,,,
+Kerala,2006,Guruvayoor,65,Thrissur,NA,GEN,K V ABDUL KHADER,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=107,true,Male,41,ABU,"KARUPPAM VEETIL 
+KADAPURAM VILLAGE",,,1,false,10th Pass,288440,0,288440,,false,,,,,
+Kerala,2006,Udma,3,Kasaragod,NA,GEN,K V KUNHIRAMAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=5,true,Male,45,K .APPUKKAN,BEVOORI HOUSE,,,0,false,12th Pass,78100,0,78100,,false,,,,,
+Kerala,2006,Tirurangadi,36,Malappuram,NA,GEN,K. MOIDEENKOYA,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=70,false,Male,31,SAIDALAVI,THIRURANGADI,,,0,false,Post Graduate,160525,17718,142807,,false,,,,,
+Kerala,2006,Kollengode,51,Palakkad,NA,GEN,K.A. CHANDRAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=86,false,Male,64,APPU,THATHAMANGALAM KARIMBATH HOUSE,,,1,false,10th Pass,12345535,0,12345535,,false,,,,,
+Kerala,2006,Aranmula,107,Pathanamthitta,NA,GEN,K.C RAJAGOPALAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=213,true,Male,57,RAGAVAN,KAVINTE VADAKKETHIL,,,2,false,8th Pass,707322,0,707322,,false,,,,,
+Kerala,2006,Kondotty,35,Malappuram,NA,GEN,K. MUHAMMADUNNI HAJI,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=71,true,Male,NaN,KODALI HASSAN,"KODALI HOUSE , KONDITTY",,,0,false,5th Pass,2347445,0,2347445,,true,,,,,
+Kerala,2006,Pattambi,44,Palakkad,NA,GEN,K.E. ESMAIL,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=100,false,Male,66,IBRAHIM SAHIB,"KIZHAKKANCHERI KUNNAKKOTTIL,",,,2,false,10th Pass,1398026,0,1398026,,false,,,,,
+Kerala,2006,Pathanapuram,114,Kollam,NA,GEN,K.B.GANESH KUMAR,KEC(B),KEC(B),http://myneta.info/ker2006/candidate.php?candidate_id=223,true,Male,39,BALAKRISHNA PILLA,KIZHOOTTU VEETTIL,,,0,false,Graduate,7112759,502245,6610514,,true,,,,,
+Kerala,2006,Palghat,49,Palakkad,NA,GEN,K.K DIVAKARAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=89,true,Male,59,NARAYANAN NAMBOOTHIRI,"NOORANI, KUTHULLIYIL",,,0,false,10th Pass,952189,0,952189,,false,,,,,
+Kerala,2006,Alleppey,100,Alappuzha,NA,GEN,K.C.VENUGOPAL,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=195,true,Male,43,KUNJIKRISHNAN THAMBI,"KANNUR
+PARANTHUR
+MATHAMANGALAM PO",,,0,false,Graduate,741002,215000,526002,,false,,,,,
+Kerala,2006,Pandalam,110,Alappuzha,NA,SC,K.K.SHAJU,JPSS,JPSS,http://myneta.info/ker2006/candidate.php?candidate_id=251,true,Male,40,K A. KARTHA,"MAVELIKKARA,ALAPPUZHA",,,1,false,12th Pass,146075,0,146075,,false,,,,,
+Kerala,2006,Pathanapuram,114,Kollam,NA,GEN,K.R.CHANDRAMOHANAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=224,false,Male,NaN,,,,,0,false,Not Given,0,0,0,,false,,,,,
+Kerala,2006,Aroor,97,Alappuzha,NA,GEN,K.R.GOWRIAMMA,JPSS,JPSS,http://myneta.info/ker2006/candidate.php?candidate_id=190,false,Female,86,KALATHIPPARAMBIL RAMAN,297 AROOR,,,0,false,Graduate Professional,4809302,0,4809302,,true,,,,,
+Kerala,2006,Eravipuram,125,Kollam,NA,GEN,K.M. SHAJI,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=226,false,Male,34,BERANKUTTY,"KANIYANPOTTAYIL KALATHODIYIL
+KALPATTA
+WAYANAD",,,0,false,12th Pass,877000,0,877000,,true,,,,,
+Kerala,2006,Pandalam,110,Alappuzha,NA,SC,K.RAGHAVAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=252,false,Male,47,KANDAN KUMARAN,"110 PANDALAM,
+PULIMAL GRAMAM",,,6,false,12th Pass,213626,0,213626,,false,,,,,
+Kerala,2006,Sreekrishnapuram,46,Palakkad,NA,GEN,K.S. SALEEKA,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=95,true,Female,44,KUNJUMON,KADAMBAZHIPPURAM AKKOTTUPARAMBIL,,,0,false,10th Pass,579066,0,579066,,false,,,,,
+Kerala,2006,Kazhakuttam,133,Thiruvananthapuram,NA,GEN,KADAKAMPALLY SURENDRAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=268,false,Male,51,Raman,kaipally punnavelakam,,,0,false,8th Pass,213175,0,213175,,false,,,,,
+Kerala,2006,Kundara,123,Kollam,NA,GEN,KADAVOOR SIVADASAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=230,false,Male,74,keshavan,ANANTHA VALLISVARAM MINI SADANIL KOLLAM,,,0,false,Graduate Professional,6016824,474840,5541984,,true,,,,,
+Kerala,2006,Kuttippuram,40,Malappuram,NA,GEN,K.T JALEEL,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=61,true,Male,39,KUNCHIMUHAMMAD,"KOORIPPARAMBIL , THEKKINPADI",,,0,false,Doctorate,735250,0,735250,,true,,,,,
+Kerala,2006,Mannarkkad,47,Palakkad,NA,GEN,KALATHIL ABDULLA,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=94,false,Male,47,MUHAMMAD,"MANNARKAD I VILLAGE, KALATHIL HOUSE",,,0,false,Graduate,909523,0,909523,,false,,,,,
+Kerala,2006,Kilimanoor,129,Thiruvananthapuram,NA,SC,KAVALLOOR MADHU,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=276,false,Male,50,Appukuttan,"priyadarshani
+perukada village",,,1,false,10th Pass,633000,0,633000,,false,,,,,
+Kerala,2006,Tellicherry,12,Kannur,NA,GEN,KODIYERI BALAKRISHNAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=17,true,Male,52,KUNJUNNI KURUP,MOTTEMAL HOUSE TELLICHERY,,,5,false,Graduate,1367243,20166,1347077,,false,,,,,
+Kerala,2006,Kunnathur,120,Kollam,NA,SC,KOVOOR KUNJUMON,RSP,Revolutionary Socialist Party,http://myneta.info/ker2006/candidate.php?candidate_id=235,true,Male,38,PODIYAN,"CHARUVILA,KOOVOOR ,KOLLAM",,,3,true,10th Pass,62500,0,62500,,false,,,,,
+Kerala,2006,Trikkarpur,5,Kasaragod,NA,GEN,KUNHIRAMAN K,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=9,true,Male,63,KUNCHAMBU VAIDAR,"MANAVIYYAM HOUSE, PILIKKODI",,,1,false,Graduate,1139843,0,1139843,,false,,,,,
+Kerala,2006,Tirurangadi,36,Malappuram,NA,GEN,KUTTY AHAMMED KUTTY,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=69,true,Male,53,SAIDALIKKUTTY MASTER,"THIYURANGADI, MASTER HOUSE ,THANUR",,,0,false,Graduate,6114683,315232,5799451,,false,,,,,
+Kerala,2006,Ollur,59,Thrissur,NA,GEN,LEELAMMA TEACHER,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=120,false,Female,55,V.J.THOMAS,VALIYAMATTOM VEETIL,,,0,false,Graduate,3336672,400000,2936672,,false,,,,,
+Kerala,2006,Vadakkekara,69,Ernakulam,NA,GEN,M A CHANDRASEKHARAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=154,false,Male,60,ANANDAN,MUTTU VEETIL,,,0,false,Graduate,1990000,0,1990000,,false,,,,,
+Kerala,2006,Kazhakuttam,133,Thiruvananthapuram,NA,GEN,M A VAHID,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=267,true,Male,55,mohammed Kasim,"kazakuttam
+kunnukuzhi,
+JINSALAYAM",,,0,false,Graduate Professional,5133000,0,5133000,,false,,,,,
+Kerala,2006,Mattancherry,73,Ernakulam,NA,GEN,M C JOSEPHINE,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=146,false,Female,56,MATHAI,"PALLIPAD VEETIL
+ANGAMALI",,,1,false,Graduate Professional,2232968,0,2232968,,false,,,,,
+Kerala,2006,Thiruvambadi,28,Kozhikode,NA,GEN,M C MAYIN HAJEE,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=56,false,Male,48,KUNJALI,NALLALAM MUNDODI PULLITHODI HOUSE,,,0,false,Graduate,19794842,3923480,15871362,,true,,,,,
+Kerala,2006,Piravom,79,Ernakulam,NA,GEN,M J JACOB,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=135,true,Male,62,Joseph,"Thirumaradi
+""muttapillil""",,,0,false,Post Graduate,5024600,470000,4554600,,false,,,,,
+Kerala,2006,Narakal,71,Ernakulam,NA,SC,M K PURUSHOTHAMAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=149,true,Male,44,Kurusa,marathara vettil,,,0,false,Post Graduate,206200,0,206200,,false,,,,,
+Kerala,2006,Ernakulam,72,Ernakulam,NA,GEN,M M LOWRANACE,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=148,false,Male,NaN,,,,,0,false,Not Given,0,0,0,,false,,,,,
+Kerala,2006,Azhicode,9,Kannur,NA,GEN,M PRAKASAN MASTER,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=23,true,Male,47,Achuthan,"pranavam 
+azhicode po 
+south kannur",,,3,false,Post Graduate,505878,0,505878,,false,,,,,
+Kerala,2006,Trivandrum North,134,Thiruvananthapuram,NA,GEN,M VIJAYAKUMAR,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=265,true,Male,56,MADHAVENPULLAI,"T.C.15/2670, VANCHIYOOR, DIST.THIRUVANATHAPURAM",,,13,true,Graduate Professional,1725428,0,1725428,,false,,,,,
+Kerala,2006,Alathur,53,Palakkad,NA,GEN,M. CHANDHRAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=101,true,Male,59,Krishnan,melepurath vettil,,,3,false,10th Pass,1380289,41214,1339075,,false,,,,,
+Kerala,2006,Kalpetta,29,Wayanad,NA,GEN,M V SREYAMS KUMAR,JD(S),Janata Dal (Secular),http://myneta.info/ker2006/candidate.php?candidate_id=205,true,Male,38,VEERENDRA KUMAR,ANANDA MANDIRAM KALPETTA NORTH POST WAYANAD DISS,,,0,false,12th Pass,30357124,3315062,27042062,,true,,,,,
+Kerala,2006,Ottapalam,45,Palakkad,NA,GEN,M. HAMSA,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=97,true,Male,45,MALIYEKKAL USMAN,MALIYEKKAL HOUSE,,,0,false,12th Pass,645061,0,645061,,false,,,,,
+Kerala,2006,Cherpu,57,Thrissur,NA,GEN,M.K.KANNAN,CMPKSC,CMPKSC,http://myneta.info/ker2006/candidate.php?candidate_id=124,false,Male,57,KRISHNAN,"MENOTHU, PUNKUNNAM, TRISSUR",,,0,false,10th Pass,1309364,55308,1254056,,false,,,,,
+Kerala,2006,Kundara,123,Kollam,NA,GEN,M.A. BABY,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=229,true,Male,52,MARIYAN AIEXANDER,ALG PUNAFLIN THIRUVAHANKI PURAM,,,7,true,Graduate,1407137,0,1407137,,false,,,,,
+Kerala,2006,Manalur,64,Thrissur,NA,GEN,M.K.PAULSON MASTER,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=110,false,Male,58,KUNJUVAREETH,MUNJANADAN HOUSE PUTHUKADU PO,,,0,false,Post Graduate,410000,0,410000,,false,,,,,
+Kerala,2006,Trichur,58,Thrissur,NA,GEN,M.M.VARGHESE,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=122,false,Male,55,MELETHU MATHAYI,MELETHU VEETIL,,,5,false,Graduate,509000,107000,402000,,false,,,,,
+Kerala,2006,Mavelikara,109,Alappuzha,NA,GEN,M.MURALI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=247,true,Male,50,MADAVAN PILLA,"CHERUKOL,109 MAVELIKKARA",,,0,false,Graduate Professional,996200,0,996200,,false,,,,,
+Kerala,2006,Ponnani,39,Malappuram,NA,GEN,M.P. GANGADHARAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=64,false,Male,68,SHANKARA PPANIKKAR,"61/1384(1511)SHELTER,PTP NAGAR, THIRUVANANTHA PURAM",,,1,false,Graduate Professional,3990000,0,3990000,,false,,,,,
+Kerala,2006,Punaloor,115,Kollam,NA,GEN,M.V.RAGHAVAN,CMPKSC,CMPKSC,http://myneta.info/ker2006/candidate.php?candidate_id=244,false,Male,72,SHANKARAN NAMBIAR,"BARNASSERIYIL
+KANNUR",,,3,true,Literate,2118902,0,2118902,,true,,,,,
+Kerala,2006,Mankada,41,Malappuram,NA,GEN,MANJALAMKUZHI ALI,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=59,true,Male,53,MUHAMMED,"MANJALAMKUZHI HOUSE,
+RAMAPURAM
+MANKADA",,,0,false,12th Pass,72974542,18311228,54663314,,true,,,,,
+Kerala,2006,Nedumangad,132,Thiruvananthapuram,NA,GEN,MANKODE RADHAKRISHNAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=269,true,Male,41,APPUKUTTAM,"MANKODU VEEDU, THIRUVANANTHAPURAM",,,2,false,10th Pass,1073669,0,1073669,,false,,,,,
+Kerala,2006,Palai,94,Kottayam,NA,GEN,MANI C KAPPAN,NCP,Nationalist Congress Party,http://myneta.info/ker2006/candidate.php?candidate_id=174,false,Male,49,CHERIAN.J.KAPPEN,"KAPPIL HOUSE, PALA",,,3,false,Graduate,11385275,1000000,10385275,,true,,,,,
+Kerala,2006,Thiruvambadi,28,Kozhikode,NA,GEN,MATHAYI CHACKO,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=55,true,Male,47,MATHAYI,"NADAKKAV, 3/618 HOUSE",,,5,true,Graduate Professional,707348,0,707348,,false,,,,,
+Kerala,2006,Kondotty,35,Malappuram,NA,GEN,MOHAMMEDKUTTY T.P,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=72,false,Male,60,ALASSAN,VALIYA PARAMBIL ABHAYA HOUSE,,,0,false,5th Pass,475297,0,475297,,false,,,,,
+Kerala,2006,Chadayamangalam,116,Kollam,NA,GEN,MULLAKKARA RATHNAKARAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=241,true,Male,51,PURUSHOTAMAN,"AMBALAKARA RAGAM,KOTTARAKARA",,,1,false,10th Pass,707146,53492,653654,,false,,,,,
+Kerala,2006,Thiruvalla,105,Pathanamthitta,NA,GEN,MATHEW T THOMAS,JD(S),Janata Dal (Secular),http://myneta.info/ker2006/candidate.php?candidate_id=209,true,Male,44,REV T. THOMAS,"THOOMPUMPATTU HOUSE, KUTTAPUZHA PO-THIRUVALLA",,,1,false,Post Graduate,672128,9201,662927,,true,,,,,
+Kerala,2006,Manalur,64,Thrissur,NA,GEN,MURALI PERUNELLI,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=109,true,Male,55,MALATHI AMMA,PERUNALLI VEETHIL;,,,3,false,Graduate,508669,0,508669,,false,,,,,
+Kerala,2006,Chathanoor,126,Kollam,NA,GEN,N ANIRUDHAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=245,true,Male,65,NARAYANAN,"ARUNIMA THAYAM,CHATHANOOR",,,1,false,Graduate Professional,2629324,164879,2464445,,false,,,,,
+Kerala,2006,Sultans Battery,30,Wayanad,NA,GEN,N D APPACHAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=208,false,Male,56,DEVASYA,KAKKAVAYALIL,,,1,false,8th Pass,5783718,0,5783718,,false,,,,,
+Kerala,2006,Chavara,122,Kollam,NA,GEN,N K PREMACHANDRAN,RSP,Revolutionary Socialist Party,http://myneta.info/ker2006/candidate.php?candidate_id=231,true,Male,44,Krishna Pillai,"Maheshwari,Rail Gardens,Cantonment,Kollam",,,4,false,Graduate Professional,4312639,1392786,2919853,,true,,,,,
+Kerala,2006,Kilimanoor,129,Thiruvananthapuram,NA,SC,N RAJAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=275,true,Male,49,A. NEELA KANTAN,LAL BHAVAN KANARA KILIMANOOR,,,1,false,Not Given,491087,390262,100825,,false,,,,,
+Kerala,2006,Nemom,137,Thiruvananthapuram,NA,GEN,N SAKTHAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=259,true,Male,55,P.Nallathampi,"kavitha nivas
+karuvur,marapallam",,,0,false,Post Graduate,3326091,0,3326091,,false,,,,,
+Kerala,2006,Parassala,140,Thiruvananthapuram,NA,GEN,N SUNDARAN NADAR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=280,false,Male,72,NALLATHAMPI NADAR,"SAROJA BHAVAN
+KEEZHAMMAKAM
+CHENKAL PO",,,0,false,Graduate Professional,2433541,0,2433541,,true,,,,,
+Kerala,2006,Poonjar,93,Kottayam,NA,GEN,P C GEORGE (PLATHOTTAM),KCS,KCS,http://myneta.info/ker2006/candidate.php?candidate_id=175,true,Male,54,Chacko,"Erattupetta ,
+Plathottam.",,,1,false,Graduate,3983139,350,3982789,,false,,,,,
+Kerala,2006,Udma,3,Kasaragod,NA,GEN,P GANGADHARAN NAIR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=6,false,Male,65,P. RAMAN NAIR,"PERIYAYIL, UDHUMA",,,1,false,10th Pass,2723534,0,2723534,,false,,,,,
+Kerala,2006,Thodupuzha,82,Idukki,NA,GEN,P J JOSEPH,KEC,KEC,http://myneta.info/ker2006/candidate.php?candidate_id=159,true,Male,64,Joseph,"Palathinal house 
+purapuzha P.O.
+purapuzha village
+Thodupuzha",,,0,false,Post Graduate,10616884,11750,10605134,,false,,,,,
+Kerala,2006,Kuthuparamba,14,Kannur,NA,GEN,P JAYARAJAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=14,true,Male,54,Kunjiraman,NILAMPARAMBATHU,,,2,false,12th Pass,593244,19082,574162,,false,,,,,
+Kerala,2006,Sultans Battery,30,Wayanad,NA,GEN,P KRISHNA PRASAD,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=207,true,Male,38,KUTTIKRISHNAN NAIR,"CHENDRALAYAM HOUSE, SULTHAN'S BATHERI TALUK",,,4,true,Graduate,6036607,0,6036607,,false,,,,,
+Kerala,2006,Kunnathunad,78,Ernakulam,NA,GEN,P P THANKACHAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=138,false,Male,67,POULOSE,PYNADATH PERUMBAVOOR,,,0,false,Graduate Professional,4791771,400000,4391771,,true,,,,,
+Kerala,2006,Kunnathur,120,Kollam,NA,SC,P RAMABHADRAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=236,false,Male,51,PACHAN,"VISHWA BHAVAN PADANAYER KULAGARATHEGU,
+KARUNAGAPALLI",,,0,false,8th Pass,1813,0,1813,,false,,,,,
+Kerala,2006,Puthuppally,92,Kottayam,NA,GEN,OOMMEN CHANDY,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=177,true,Male,62,CHANDY,KAROTTU VALLAKHALIL HOUSE PUTHUPPALL KOTTAYAM,,,0,false,Graduate,3029965,768439,2261526,,true,,,,,
+Kerala,2006,Hosdrug,4,Kasaragod,NA,SC,P RAMACHANDRAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=8,false,Male,50,kunchi raman- vattichi,neeleshwaram,,,0,false,Literate,253500,0,253500,,false,,,,,
+Kerala,2006,Quilandy,20,Kozhikode,NA,GEN,P VISWAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=49,true,Male,55,KUNCHIKKANNAN NAYAR,"PALOTTERI VEETTIL,QUILSANDI",,,6,false,Graduate,509000,0,509000,,false,,,,,
+Kerala,2006,Payyannur,7,Kannur,NA,GEN,P K SREEMATHI TEACHER,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=27,true,Female,56,E.Damodaran nambiar,"ADUTHILA,",,,2,false,12th Pass,1910544,0,1910544,,false,,,,,
+Kerala,2006,Thrithala,43,Palakkad,NA,SC,P. BALAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=82,false,Male,38,KOLAVAN,KOOTTANAD,,,0,false,10th Pass,526700,129110,397590,,false,,,,,
+Kerala,2006,North Wynad,16,Wayanad,NA,ST,P.BALAN,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=32,false,Male,31,keluvi,varambattayi,,,0,false,8th Pass,6600,0,6600,,false,,,,,
+Kerala,2006,Chelakara,54,Thrissur,NA,SC,P.C.MANIKANDAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=104,false,Male,39,CHELLAN,PANGARAPALLI VILLAGE,,,1,false,12th Pass,151800,0,151800,,false,,,,,
+Kerala,2006,Chengannur,108,Alappuzha,NA,GEN,P.C.VISHNUNATH,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=249,true,Male,28,Chellappan Pillai,"Krishna Kurupa Mankara,shsthankatha",,,3,true,Graduate,5632,0,5632,,false,,,,,
+Kerala,2006,Ankamali,68,Ernakulam,NA,GEN,P.J.JOY,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=132,false,Male,55,PUTHUSSERY OUSEPH,"PUTHUSSERY VEETIL
+ANGAMALI",,,0,false,Graduate,4245918,800000,3445918,,false,,,,,
+Kerala,2006,Manjeri,33,Malappuram,NA,GEN,P.K ABDU RABB,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=75,true,Male,56,ABDULKADAR KUTTY NAHA,PANDIKKADAVATH HOUSE,,,0,false,Post Graduate,12556000,0,12556000,,false,,,,,
+Kerala,2006,Tanur,37,Malappuram,NA,GEN,P.K. MOHAMMEDKUTTY KOYAKUTTY,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=68,false,Male,61,KOYAKKUTTY,"037 TANUR,PAINAD KODASHERI",,,1,false,Literate,2635786,1070000,1565786,,false,,,,,
+Kerala,2006,Kuttippuram,40,Malappuram,NA,GEN,P.K. KUNHALIKUTTY,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=62,false,Male,55,MUHAMMAED HAJI,PANDIKKADAVATH HOUSE,,,0,false,Graduate,7185998,0,7185998,,true,,,,,
+Kerala,2006,Quilon,124,Kollam,NA,GEN,P.K.GURUDASAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=227,true,Male,70,KRISHNAN,"SS MANDIRAM ,POLAYATHODU ,KOLLAM",,,1,false,12th Pass,1077071,0,1077071,,false,,,,,
+Kerala,2006,Tirur,38,Malappuram,NA,GEN,P.P ABDULLAKKUTTY,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=65,true,Male,63,KUNCHIVAVA,"PAZHAYA PUTHAN VEETTIL,TIRU",,,2,false,10th Pass,1050768,0,1050768,,false,,,,,
+Kerala,2006,Sherthalai,98,Alappuzha,NA,GEN,P.THILOTHAMAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=191,true,Male,48,PARAMESWARAN,98 CHERTHALA,,,1,false,Graduate,345295,0,345295,,false,,,,,
+Kerala,2006,Hosdrug,4,Kasaragod,NA,SC,PALLIPRAM BALAN,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=7,true,Male,64,KARTHUTTY,"KANNARNKILLA, MUNDAYAD, PALLIPRA",,,0,false,5th Pass,158600,3000,155600,,false,,,,,
+Kerala,2006,Nedumangad,132,Thiruvananthapuram,NA,GEN,PALODE RAVI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=270,false,Male,56,GAGADHARANPILLA,"6/155 THAZATHUVEEDU
+KOCHUVENCODE",,,0,false,Graduate,4600187,0,4600187,,false,,,,,
+Kerala,2006,Ponnani,39,Malappuram,NA,GEN,PALOLI MOHAMEDKUTTY,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=63,true,Male,72,Hydru,"Palali house, Koddor, Malapuram Dist",,,14,true,Literate,234847,0,234847,,false,,,,,
+Kerala,2006,Badagara,17,Kozhikode,NA,GEN,PONNARATH BALAKRISHNAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=34,false,Male,56,KELAPPAN NAMBYAR,"PONNARA, MEMUNDA",,,1,false,Graduate Professional,1196254,0,1196254,,false,,,,,
+Kerala,2006,Chadayamangalam,116,Kollam,NA,GEN,PRAYAR GOPALAKRISHNAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=242,false,Male,56,KRISHNAN NAIR,PRAYAR HOUSE CHITHARA,,,0,false,Graduate,8692464,338201,8354263,,false,,,,,
+Kerala,2006,Adoor,119,Pathanamthitta,NA,GEN,PROF. D K JOHN,KEC,KEC,http://myneta.info/ker2006/candidate.php?candidate_id=222,false,Male,56,DANIYAL,KOTTUMUGALIL HOUSE,,,0,false,Post Graduate,3019031,0,3019031,,true,,,,,
+Kerala,2006,Ernakulam,72,Ernakulam,NA,GEN,PROF. K V THOMAS,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=147,true,Male,NaN,,,,,0,false,Post Graduate,3879555,0,3879555,,false,,,,,
+Kerala,2006,Chalakudi,61,Thrissur,NA,GEN,PROF. SAVITHRI LAKSHMANAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=116,false,Female,61,LAKSHMANAN NAIR,KRISHNAKRIPA 24 CHALAKUDY,,,0,false,Post Graduate,5670350,350000,5320350,,false,,,,,
+Kerala,2006,Peravoor,15,Kannur,NA,GEN,PROFESSOR A.D MUSTAFA,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=30,false,Male,60,Bappan Keya,"Serene Kannu K Kara,Kannur - 6",,,0,false,Post Graduate,3560974,0,3560974,,true,,,,,
+Kerala,2006,Parassala,140,Thiruvananthapuram,NA,GEN,R SELVARAJ,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=279,true,Male,52,Varghese,"divya bhavan
+nediyam kode
+kollayil village
+Parassala",,,7,false,Graduate,114412,50000,64412,,false,,,,,
+Kerala,2006,Kottarakara,117,Kollam,NA,GEN,R. BALAKRISHNA PILLAI,KEC(B),KEC(B),http://myneta.info/ker2006/candidate.php?candidate_id=240,false,Male,72,Raman Pillai,kizhuttu vettil,,,2,false,Graduate,84347845,0,84347845,,true,,,,,
+Kerala,2006,Kodakara,60,Thrissur,NA,GEN,PROF.C.RAVEENDRANATH,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=117,true,Male,50,Peethambaran kartha,"lakshmi bhavan 
+trissur",,,0,false,Post Graduate,3060643,814246,2246397,,true,,,,,
+Kerala,2006,Tellicherry,12,Kannur,NA,GEN,RAJ MOHAN UNNITHAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=18,false,Male,52,Kuttan Pilla,"Kambiyil veedu,Kollam",,,0,false,Post Graduate,2253862,0,2253862,,false,,,,,
+Kerala,2006,Ollur,59,Thrissur,NA,GEN,RAJAJI MATHEW THOMAS,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=119,true,Male,51,T.K. THOMAS,THENGUVELAEL VEETHIL,,,0,false,Graduate,769035,126318,642717,,false,,,,,
+Kerala,2006,Vazhoor,88,Kottayam,NA,GEN,RAJENDRAN PARAMESWARAN NAIR,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=186,false,Male,56,PARAMESWARAN NAIR,"kochukalapurayidathilhouse
+Kanam PO
+vazhoor",,,0,false,12th Pass,3100089,0,3100089,,false,,,,,
+Kerala,2006,Ranni,111,Pathanamthitta,NA,GEN,RAJU ABRAHAM,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=215,true,Male,44,K.S . ABRAHAM,"KANDANATTU HOUSE, ANGADI PO, RANNI",,,3,false,Graduate,764193,0,764193,,false,,,,,
+Kerala,2006,Edakkad,11,Kannur,NA,GEN,RAMACHANDRAN KADANNAPALLY,C(S),C(S),http://myneta.info/ker2006/candidate.php?candidate_id=19,true,Male,63,KRISHNAN GURUKAL,"7/172,
+PADIKATITTIL VILAPPIL",,,0,false,Graduate,692143,235305,456838,,false,,,,,
+Kerala,2006,Idukki,84,Idukki,NA,GEN,ROSHY AUGUSTINE,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=163,true,Male,36,Augustine,"Cherunileathu,Chalil",,,0,false,Graduate,3598511,18768,3579743,,false,,,,,
+Kerala,2006,Devicolam,83,Idukki,NA,SC,S RAJENDRAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=161,true,Male,48,SHANMUGHAVAL/SREE RANKA RAMAN,"NEW DIVISION , PERIIYA KANAL ESTATES",,,0,false,8th Pass,31719,0,31719,,false,,,,,
+Kerala,2006,Vadakkekara,69,Ernakulam,NA,GEN,S SHARMA,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=153,true,Male,50,Shekaran,"mannappasheri vettil
+N.paravoor",,,1,false,12th Pass,2088013,202844,1885169,,false,,,,,
+Kerala,2006,Chengannur,108,Alappuzha,NA,GEN,SAJI CHERIAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=250,false,Male,40,CHERIYAN,"108 CHENGANNUR ,ALAPPUZHA",,,9,true,Graduate,1639894,1717910,-78016,,false,,,,,
+Kerala,2006,Perumbavoor,77,Ernakulam,NA,GEN,SAJU PAUL,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=139,true,Male,39,Paulose,"Panthalingal veethil
+vengoor,
+kunnathunadu,perumbavoor",,,0,false,12th Pass,6850000,500000,6350000,,false,,,,,
+Kerala,2006,Wandoor,31,Malappuram,NA,SC,SANKARAN KORAMBAYIL,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=58,false,Male,35,NEELI KORAMBAYIL,CHEMBRASSERY,,,2,false,10th Pass,15500,30000,-14500,,false,,,,,
+Kerala,2006,Perinthalmanna,42,Malappuram,NA,GEN,SASI KUMAR,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=79,true,Male,42,SHANKARAN,"GASAL HOUSE, VALAMBUR
+PERINTHALMANNA",,,0,false,Graduate,335468,108200,227268,,false,,,,,
+Kerala,2006,Malampuzha,48,Palakkad,NA,GEN,SATHEESAN PACHENI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=92,false,Male,37,DAMODARAN,"KANNUR(DT), THALIPPARAMB,
+PARIYARAM,
+PACHAENI DESHAM",,,1,false,Graduate,127039,19065,107974,,false,,,,,
+Kerala,2006,Trivandrum West,135,Thiruvananthapuram,NA,GEN,SHOBHANA GEORGE,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=264,false,Female,46,ISSAC GEORGE,"HOUSE NO.13 
+KADAKAMPALLY HOUSE COLONY",,,1,false,Post Graduate,2935732,0,2935732,,false,,,,,
+Kerala,2006,Chavara,122,Kollam,NA,GEN,SHIBU BABY JOHN,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=232,false,Male,42,BABY JOHN,VAYALIL BANGLOW,,,1,false,Graduate,2535610,0,2535610,,true,,,,,
+Kerala,2006,Mararikulam,99,Alappuzha,NA,GEN,SIMMI ROSE BELL JOHN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=194,false,Female,40,CC JHONY,"79 MARARIKULAM,ERANAKULAM",,,0,false,Graduate,1482789,0,1482789,,false,,,,,
+Kerala,2006,Puthuppally,92,Kottayam,NA,GEN,SINDHU JOY,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=178,false,Female,28,JOY,"KARAYIL VEERAMANA VEETIL
+ERNAKULAM",,,2,true,Post Graduate,2000000,0,2000000,,false,,,,,
+Kerala,2006,Nilambur,32,Malappuram,NA,GEN,SREERAMAKRISHNAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=78,false,Male,38,GOVINDAN NAIR,purayath veed pattikkad,,,2,false,Graduate Professional,253235,0,253235,,false,,,,,
+Kerala,2006,Kaduthuruthy,95,Kottayam,NA,GEN,STEPHEN GEORGE,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=172,false,Male,42,GEORGE,MEEHERIL THEKKETHIL HOUSE P0-KURUMULLOOR,,,0,false,Post Graduate,1309000,0,1309000,,false,,,,,
+Kerala,2006,Ariyanad,131,Thiruvananthapuram,NA,GEN,T J CHANDRACHOODAN,RSP,Revolutionary Socialist Party,http://myneta.info/ker2006/candidate.php?candidate_id=272,false,Male,65,T J Janarthanan,"TC 30/1916
+tulasi vihar 
+petta
+trivandrum",,,1,false,Post Graduate,10044181,0,10044181,,true,,,,,
+Kerala,2006,Nattika,66,Thrissur,NA,GEN,T N PRATHAPAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=105,true,Male,45,NARAYANAN,THALIKKULAM THOTTUGAL,,,0,false,12th Pass,396124,19082,377042,,false,,,,,
+Kerala,2006,Piravom,79,Ernakulam,NA,GEN,T M JACOB,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=136,false,Male,56,MATHEW,THANIKUNNEL OLIYAPPURAM,,,3,false,Post Graduate,12008577,0,12008577,,true,,,,,
+Kerala,2006,Calicut- II,25,Kozhikode,NA,GEN,T P M ZAHIR,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=40,false,Male,61,KUTTIYALI,"SHAFA-ATH , 025 CALICUT",,,1,false,Graduate,14344000,0,14344000,,true,,,,,
+Kerala,2006,Meppayur,19,Kozhikode,NA,GEN,T T ISMAIL,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=52,false,Male,42,ABDULLA HAJI,"THOUFEEQ,",,,0,false,Graduate,1266900,0,1266900,,false,,,,,
+Kerala,2006,Mala,62,Thrissur,NA,GEN,T U RADHAKRISHNAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=114,false,Male,50,THATTAKODI UNNI,AYAMANNADA,,,0,false,12th Pass,603864,0,603864,,false,,,,,
+Kerala,2006,Alleppey,100,Alappuzha,NA,GEN,T.J.ANJALOSE,CPI,Communist Party of India,http://myneta.info/ker2006/candidate.php?candidate_id=196,false,Male,47,JHONY,100 ALAPPUZHA,,,1,false,Graduate,459872,0,459872,,false,,,,,
+Kerala,2006,Haripad,103,Alappuzha,NA,GEN,T.K.DEVAKUMAR,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=202,false,Male,48,CHATHU PANIKKAR,"106,PAPPI FLAT",,,4,false,12th Pass,2322002,0,2322002,,false,,,,,
+Kerala,2006,Thrithala,43,Palakkad,NA,SC,T.P. KUNJUNNI,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=81,true,Male,54,THATTAN VALAPPIL PAZHANIKKUTTY,"THATTANVALAPPIL, CHALISHERI",,,1,true,12th Pass,586001,0,586001,,false,,,,,
+Kerala,2006,Wadakkancherry,55,Thrissur,NA,GEN,T.V.CHANDRA MOHAN,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=128,false,Male,55,GOVINDAN,POONKUNNAM VILLAGE,,,0,false,Post Graduate,1410600,0,1410600,,false,,,,,
+Kerala,2006,Neyyattinkara,139,Thiruvananthapuram,NA,GEN,THAMPANOOR RAVI,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=256,false,Male,56,SEKHARAPILLAI,"JAYALEKSHMI KOCHAR ROAD
+SASTHAMANGALAM",,,0,false,12th Pass,2452576,162364,2290212,,false,,,,,
+Kerala,2006,Adoor,119,Pathanamthitta,NA,GEN,THIRUVANCHOOR RADHAKRISHNAN,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=221,true,Male,56,PARAMESHWARAN PILLA,GANDHI BHAVANIL,,,0,false,Graduate Professional,2334000,657000,1677000,,false,,,,,
+Kerala,2006,Kunnamangalam,27,Kozhikode,NA,SC,U C RAMAN,IND,Independent,http://myneta.info/ker2006/candidate.php?candidate_id=35,true,Male,40,imbichikkandan,PADANILAM VEETTIL,,,0,false,10th Pass,37005,0,37005,,false,,,,,
+Kerala,2006,Kuttanad,102,Alappuzha,NA,GEN,THOMAS CHANDY,DIC,DIC,http://myneta.info/ker2006/candidate.php?candidate_id=199,true,Male,58,V.C THOMAS,CHENAMKARY,,,0,false,10th Pass,162952000,460000,162492000,,false,,,,,
+Kerala,2006,Kodungallur,67,Thrissur,NA,GEN,UMESH CHALLIYIL,JPSS,JPSS,http://myneta.info/ker2006/candidate.php?candidate_id=130,false,Male,44,KRISHNAN,CHALLIYIL VEETIL,,,1,false,12th Pass,10956000,3570000,7386000,,true,,,,,
+Kerala,2006,Ettumanoor,91,Kottayam,NA,GEN,THOMAS CHAZHIKKADAN,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=179,true,Male,53,CYRIAE,CHAZHIKALHA HOUSE S.M MOUNT PO-PERNRN BAIKAOL VILLAGE KOLTAGAN TALNK KOLTAGAN DISTRICT,,,0,false,Graduate,5687452,305195,5382257,,true,,,,,
+Kerala,2006,Beypore,26,Kozhikode,NA,GEN,UMMER PANDIKASALA,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=38,false,Male,53,veeran kutty,"DARU SSUBAH HIUSE, 26 BEYPOR",,,0,false,Graduate,1656500,0,1656500,,true,,,,,
+Kerala,2006,Kothamangalam,81,Ernakulam,NA,GEN,V J PAULOSE,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=156,false,Male,57,JOHN,VAZHA KULANGARA VEETIL,,,0,false,12th Pass,3904000,150000,3754000,,false,,,,,
+Kerala,2006,Neyyattinkara,139,Thiruvananthapuram,NA,GEN,V J THANKAPPAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=255,true,Male,71,JOHANSON NADAR,"VATTARILAKATH VEEDU, THALAYAL, BALERAMAPURAM",,,2,false,Graduate Professional,450000,0,450000,,false,,,,,
+Kerala,2006,Mattancherry,73,Ernakulam,NA,GEN,V K IBRAHIM KUNJU,MUL,Muslim League Kerala State Committee,http://myneta.info/ker2006/candidate.php?candidate_id=145,true,Male,53,V U KHADER,"CC12/1515
+GRACE GRADENS",,,0,false,10th Pass,7227849,181699,7046150,,true,,,,,
+Kerala,2006,Pathanamthitta,112,Pathanamthitta,NA,GEN,V K PURUSHOTHAMAN PILLAI,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=218,false,Male,62,RAMAKURUP,VELLAVOORTHOTTATHIL HOUSE KADAMMANITTA PO,,,1,false,Post Graduate,1191735,131191,1060544,,false,,,,,
+Kerala,2006,Kottayam,90,Kottayam,NA,GEN,V N VASAVAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=181,true,Male,51,NARAYANAN,"HIMA BHAVAN
+PAMPADY VILLAGE
+KOTTAYAM",,,1,false,10th Pass,809000,0,809000,,false,,,,,
+Kerala,2006,Konni,113,Pathanamthitta,NA,GEN,V R SIVARAJAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=220,false,Male,52,RAMAN,"CHAITRAM HOUSE, KONNI",,,2,false,Graduate,279412,0,279412,,false,,,,,
+Kerala,2006,Kasaragod,2,Kasaragod,NA,GEN,V RAVINDRAN,BJP,Bharatiya Janata Party,http://myneta.info/ker2006/candidate.php?candidate_id=4,false,Male,56,KRISHNAN,"BIF 10, MINAM-8, HOUSING KOLARIYIL",,,0,false,10th Pass,808569,0,808569,,false,,,,,
+Kerala,2006,Trivandrum East,136,Thiruvananthapuram,NA,GEN,V SIVANKUTTY,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=261,true,Male,51,M.Vasudevan pilla,"mulakkal veedu.
+TC 36/1241",,,0,false,Graduate Professional,1562665,0,1562665,,false,,,,,
+Kerala,2006,Trivandrum West,135,Thiruvananthapuram,NA,GEN,V SURENDRAN PILLAI,KEC,KEC,http://myneta.info/ker2006/candidate.php?candidate_id=263,true,Male,48,VELUPILLA,"4/333, PUTHEN VEEDU,
+KARAKONAM PO
+ANCHAL, PUNALUR.",,,0,false,12th Pass,2735000,1500000,1235000,,false,,,,,
+Kerala,2006,Kollengode,51,Palakkad,NA,GEN,V. CHENTHAMARAKSHAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=85,true,Male,45,VELLANDI,"CPIM OFFICE
+KOLLAMKODE 
+PALAKAD",,,1,false,Graduate,1254882,200000,1054882,,false,,,,,
+Kerala,2006,Ottapalam,45,Palakkad,NA,GEN,V.C. KABEER MASTER,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=98,false,Male,62,Chekku haji,"valluvanad house, ottappalam",,,0,false,10th Pass,1683328,557805,1125523,,false,,,,,
+Kerala,2006,Varkala,127,Thiruvananthapuram,NA,GEN,VARKALA KAHAR,INC,Indian National Congress,http://myneta.info/ker2006/candidate.php?candidate_id=253,true,Male,55,Abdulla Musaliyar,puthean veethil.,,,0,false,12th Pass,4925000,50000,4875000,,false,,,,,
+Kerala,2006,Malampuzha,48,Palakkad,NA,GEN,V.S. ACHUTHANANDAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=91,true,Male,82,SANKARAN,"VELIKKA KATTU VEEDU, PUNNAPURA NARTH, alappuzha",,,16,false,5th Pass,873784,0,873784,,true,,,,,
+Kerala,2006,Nemom,137,Thiruvananthapuram,NA,GEN,VENGANOOR P BHASKARAN,CPM,Communist Party of India (Marxist),http://myneta.info/ker2006/candidate.php?candidate_id=260,false,Male,65,PADMANABHAN,"KUMAR COTTAGE 
+VENNIYYOR
+NEELIVILA PO",,,1,false,10th Pass,814790,0,814790,,false,,,,,
+Kerala,2006,Thiruvalla,105,Pathanamthitta,NA,GEN,VICTOR THOMAS,KEC(M),KEC(M),http://myneta.info/ker2006/candidate.php?candidate_id=210,false,Male,45,THOMAS,MULAMOOTTIL THUNDIYATH HOUSE,,,0,false,Post Graduate,24192862,1378736,22814126,,true,,,,,
