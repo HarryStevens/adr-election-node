@@ -24,8 +24,10 @@ module.exports.go = function(obj, callback){
 
 		var $ = cheerio.load(body);
 
-		$("table").each((table_index, table) => {
-			if (table_index == obj.table_index){
+		var tables = $("table");
+
+		tables.each((table_index, table) => {
+			if (table_index == tables.length - 1){
 				
 				var rows = $(table).find("tbody").find("tr");
 
