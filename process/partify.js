@@ -46,6 +46,16 @@ select.select(obj => {
 
 			});
 
+			// format the final thing
+			var cols = ["state", "year", "constituency", "ac_no", "district", "sub_region", "reservations", "candidate_name", "party", "party_eci", "url", "winner", "gender", "age", "so_do", "address", "profession", "spouse_profession", "criminal_cases", "serious_criminal_cases", "education", "assets", "liabilities", "net_assets", "filed_itr", "declared_pan", "recontest_url", "recontest_assets_this", "recontest_assets_last", "recontest_assets_change", "recontest_remarks"];
+			var out = data.map(d => {
+				var obj = {};
+				cols.forEach(col => {
+					obj[col] = d[col];
+				});
+				return obj;
+			});
+
 			console.log(path + "/" + filename + " has been partified!")
 
 			io.writeDataSync(path + "/" + filename, data);

@@ -85,7 +85,7 @@ module.exports.go = function(obj, callback){
 			        });
 						});
 
-						// format the file
+						// format the final thing
 						var cols = ["state", "year", "constituency", "ac_no", "district", "sub_region", "reservations", "candidate_name", "party", "party_eci", "url", "winner", "gender", "age", "so_do", "address", "profession", "spouse_profession", "criminal_cases", "serious_criminal_cases", "education", "assets", "liabilities", "net_assets", "filed_itr", "declared_pan", "recontest_url", "recontest_assets_this", "recontest_assets_last", "recontest_assets_change", "recontest_remarks"];
 						out = out.map(d => {
 							var obj = {};
