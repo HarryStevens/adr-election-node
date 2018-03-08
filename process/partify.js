@@ -38,10 +38,12 @@ select.select(obj => {
 
 			var data = io.readDataSync(path + "/" + filename);
 
-			data.forEach(row => {
+			data.forEach((row, row_index) => {
 
 				var type = pt.getType(row.party);
 				row.party_eci = type == "abbr" ? pt.convert(row.party) : row.party;
+
+				console.log(((row_index + 1) / data.length * 100).toFixed(2) + "%");
 				return row;
 
 			});
