@@ -85,5 +85,7 @@ module.exports = [
 	{state: "West Bengal", year: "2016", id: "westbengal2016"},
 	{state: "Lok Sabha", year: "2014", id: "ls2014"},
 	{state: "Lok Sabha", year: "2009", id: "ls2009"},
-	{state: "Lok Sabha", year: "2004", id: "loksabha2004"}
+	{state: "Lok Sabha", year: "2004", id: "loksabha2004"},
+	{state: "Lok Sabha", year: "2004", id: "loksabha2004"},
+	{state: "Karnataka", year: "2018", id: "karnataka2018"}
 ]
