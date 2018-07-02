@@ -840,7 +840,7 @@ module.exports = [
    "sub_region": "MYSORE DIVISION"
  },
  {
-   "constituency": "KAPU",
+   "constituency": "KAUP",
    "ac_no": 121,
    "reservations": "GEN",
    "district": "UDUPI",
