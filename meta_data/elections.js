@@ -19,6 +19,7 @@ module.exports = [
 	{state: "Chhattisgarh", year: "2008", id: "2008Chhattisgarh"},
 	{state: "Karnataka", year: "2013", id: "karnataka2013"},
 	{state: "Karnataka", year: "2008", id: "karnatka2008"},
+	{state: "Karnataka", year: "2018", id: "karnataka2018"},
 	{state: "Madhya Pradesh", year: "2018", id: "madhyapradesh2018"},
 	{state: "Madhya Pradesh", year: "2013", id: "mp2013"},
 	{state: "Madhya Pradesh", year: "2008", id: "2008mp"},
@@ -91,6 +92,6 @@ module.exports = [
 	{state: "Lok Sabha", year: "2014", id: "ls2014"},
 	{state: "Lok Sabha", year: "2009", id: "ls2009"},
 	{state: "Lok Sabha", year: "2004", id: "loksabha2004"},
-	{state: "Lok Sabha", year: "2004", id: "loksabha2004"},
-	{state: "Karnataka", year: "2018", id: "karnataka2018"}
+	{state: "Lok Sabha", year: "2019", id: "LokSabha2019"}
+	
 ]
