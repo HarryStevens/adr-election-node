@@ -151,21 +151,30 @@ module.exports.go = function(object, callback){
                 indexes_scraped.push(row_index);
 
                 // don't write till the end
-                if (row_index == rows.length - 1) {
+                if (row_index === rows.length - 1) {
 
                   console.log("Got to last candidate. Checking if all candidates have been scraped...");
+                  var attempts = 0;
                   var interval = setInterval(function(){
-
+                    attempts++;
                     var done = jz.arr.sortNumbers(indexes_scraped).every(function(d, i){
                       return i !== 0 ? d - indexes_scraped[i - 1] == 1 : i == 0;
                     });
+                    var tooManyAttempts = attempts > 20;
                     
                     if (done){
                       console.log("All candidates have been scraped.");
                       clearInterval(interval);
                       io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv", data);
                       callback(object);
-                    } else {
+                    }
+                    else if (tooManyAttempts){
+                      console.log("Too many attempts. Writing anyway.");
+                      clearInterval(interval);
+                      io.writeDataSync("data/" + jz.str.toSlugCase(state) + "/" + year + "/" + jz.str.toSlugCase(state) + "_" + year + "_candidates_MASTER.csv", data);
+                      callback(object); 
+                    } 
+                    else {
                       console.log("All candidates have not been scraped yet. Checking again in 3 seconds...");
                     }
 
