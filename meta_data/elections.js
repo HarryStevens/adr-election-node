@@ -46,6 +46,7 @@ module.exports = [
 	{state: "Haryana", year: "2005", id: "hr2005"},
 	{state: "Haryana", year: "2009", id: "ha2009"},
 	{state: "Haryana", year: "2014", id: "haryana2014"},
+	{state: "Haryana", year: "2019", id: "haryana2019"},
 	{state: "Jammu & Kashmir", year: "2008", id: "jk2008"},
 	{state: "Jammu & Kashmir", year: "2014", id: "jk2014"},
 	{state: "Jharkhand", year: "2005", id: "jarka05"},
@@ -57,6 +58,7 @@ module.exports = [
 	{state: "Maharashtra", year: "2004", id: "mah2004"},
 	{state: "Maharashtra", year: "2009", id: "mh2009"},
 	{state: "Maharashtra", year: "2014", id: "maharashtra2014"},
+	{state: "Maharashtra", year: "2019", id: "maharashtra2019"},
 	{state: "Manipur", year: "2007", id: "manipur07"},
 	{state: "Manipur", year: "2012", id: "manipur2012"},
 	{state: "Manipur", year: "2017", id: "manipur2017"},
@@ -92,6 +94,5 @@ module.exports = [
 	{state: "Lok Sabha", year: "2014", id: "ls2014"},
 	{state: "Lok Sabha", year: "2009", id: "ls2009"},
 	{state: "Lok Sabha", year: "2004", id: "loksabha2004"},
-	{state: "Lok Sabha", year: "2019", id: "LokSabha2019"}
-	
+	{state: "Lok Sabha", year: "2019", id: "LokSabha2019"},
 ]

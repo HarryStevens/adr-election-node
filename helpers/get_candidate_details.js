@@ -145,7 +145,7 @@ module.exports.go = function(object, callback){
                 });
 
                 var pct = (row_index + 1) / rows.length * 100;
-                console.log(pct.toFixed(2) + "%");
+                process.stdout.write("\r" + pct.toFixed(2) + "%");
 
                 data.push(obj);
                 indexes_scraped.push(row_index);
@@ -153,7 +153,7 @@ module.exports.go = function(object, callback){
                 // don't write till the end
                 if (row_index === rows.length - 1) {
 
-                  console.log("Got to last candidate. Checking if all candidates have been scraped...");
+                  console.log("\nGot to last candidate. Checking if all candidates have been scraped...");
                   var attempts = 0;
                   var interval = setInterval(function(){
                     attempts++;

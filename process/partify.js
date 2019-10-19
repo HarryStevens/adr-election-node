@@ -43,7 +43,7 @@ select.select(obj => {
 				var type = pt.getType(row.party);
 				row.party_eci = type == "abbr" ? pt.convert(row.party) : row.party;
 
-				console.log(((row_index + 1) / data.length * 100).toFixed(2) + "%");
+				process.stdout.write("\r" + ((row_index + 1) / data.length * 100).toFixed(2) + "%");
 				return row;
 
 			});
@@ -58,7 +58,7 @@ select.select(obj => {
 				return obj;
 			});
 
-			console.log(path + "/" + filename + " has been partified!")
+			console.log("\n" + path + "/" + filename + " has been partified!")
 
 			io.writeDataSync(path + "/" + filename, data);
 	}
