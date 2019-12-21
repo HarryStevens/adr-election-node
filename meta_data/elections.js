@@ -36,6 +36,7 @@ module.exports = [
   {"state": "Jharkhand", "year": "2005", "id": "jarka05"},
   {"state": "Jharkhand", "year": "2009", "id": "jarka09"},
   {"state": "Jharkhand", "year": "2014", "id": "jharkhand2014"},
+  {"state": "Jharkhand", "year": "2019", "id": "jharkhand2019"},
   {"state": "Karnataka", "year": "2008", "id": "karnatka2008"},
   {"state": "Karnataka", "year": "2013", "id": "karnataka2013"},
   {"state": "Karnataka", "year": "2018", "id": "karnataka2018"},
