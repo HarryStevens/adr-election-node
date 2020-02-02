@@ -18,6 +18,7 @@ module.exports = [
   {"state": "Delhi", "year": "2008", "id": "dl2008"},
   {"state": "Delhi", "year": "2013", "id": "delhi2013"},
   {"state": "Delhi", "year": "2015", "id": "delhi2015"},
+  {"state": "Delhi", "year": "2020", "id": "delhi2020"},
   {"state": "Goa", "year": "2007", "id": "goa2007"},
   {"state": "Goa", "year": "2012", "id": "goa2012"},
   {"state": "Goa", "year": "2017", "id": "goa2017"},
