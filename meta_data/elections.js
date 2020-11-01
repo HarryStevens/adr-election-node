@@ -12,6 +12,7 @@ module.exports = [
   {"state": "Bihar", "year": "2005", "id": "bih2005"},
   {"state": "Bihar", "year": "2010", "id": "bih2010"},
   {"state": "Bihar", "year": "2015", "id": "bihar2015"},
+  {"state": "Bihar", "year": "2020", "id": "Bihar2020"},
   {"state": "Chhattisgarh", "year": "2008", "id": "2008Chhattisgarh"},
   {"state": "Chhattisgarh", "year": "2013", "id": "chhattisgarh2013"},
   {"state": "Chhattisgarh", "year": "2018", "id": "chhattisgarh2018"},

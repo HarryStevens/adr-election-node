@@ -3,7 +3,8 @@ var io = require("indian-ocean"),
   request = require("request"),
   cheerio = require("cheerio"),
   jz = require("jeezy"),
-  fsz = require("fsz")
+  fsz = require("fsz"),
+  logpct = require("logpct");
 
 _.rateLimit = function(func, rate, async) {
   var queue = [];
@@ -144,8 +145,9 @@ module.exports.go = function(object, callback){
 
                 });
 
-                var pct = (row_index + 1) / rows.length * 100;
-                process.stdout.write("\r" + pct.toFixed(2) + "%");
+                // Log the percent status
+                const pct = (row_index + 1) / rows.length * 100
+                logpct(pct, 20, `\t${pct.toFixed(2)}%\t${row_index + 1} of ${rows.length}\t`);
 
                 data.push(obj);
                 indexes_scraped.push(row_index);
