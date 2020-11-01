@@ -2,6 +2,7 @@ var io = require("indian-ocean"),
 	pt = require("party-time"),
 	jz = require("jeezy"),
 	fs = require("fs"),
+	logpct = require("logpct"),
 	prompt = require("prompt"),
 	select = require("../helpers/select_election");
 
@@ -43,7 +44,7 @@ select.select(obj => {
 				var type = pt.getType(row.party);
 				row.party_eci = type == "abbr" ? pt.convert(row.party) : row.party;
 
-				process.stdout.write("\r" + ((row_index + 1) / data.length * 100).toFixed(2) + "%");
+				logpct((row_index + 1) / data.length * 100);
 				return row;
 
 			});
