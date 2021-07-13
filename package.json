@@ -22,6 +22,8 @@
     "cli-select": "^1.1.2",
     "fsz": "^1.2.1",
     "indian-ocean": "^3.0.2",
+    "inquirer": "^8.1.1",
+    "inquirer-search-list": "^1.2.6",
     "jeezy": "^1.12.14",
     "logpct": "0.0.2",
     "party-time": "^3.2.52",

@@ -46,6 +46,7 @@ module.exports = [
   {"state": "Kerala", "year": "2006", "id": "ker2006"},
   {"state": "Kerala", "year": "2011", "id": "kerala2011"},
   {"state": "Kerala", "year": "2016", "id": "kerala2016"},
+  {"state": "Kerala", "year": "2021", "id": "Kerala2021"},
   {"state": "Lok Sabha", "year": "2004", "id": "loksabha2004"},
   {"state": "Lok Sabha", "year": "2009", "id": "ls2009"},
   {"state": "Lok Sabha", "year": "2014", "id": "ls2014"},
@@ -76,6 +77,7 @@ module.exports = [
   {"state": "Puducherry", "year": "2006", "id": "pond2006"},
   {"state": "Puducherry", "year": "2011", "id": "puducherry2011"},
   {"state": "Puducherry", "year": "2016", "id": "puducherry2016"},
+  {"state": "Puducherry", "year": "2021", "id": "Puducherry2021"},
   {"state": "Punjab", "year": "2007", "id": "pb2007"},
   {"state": "Punjab", "year": "2012", "id": "pb2012"},
   {"state": "Punjab", "year": "2017", "id": "punjab2017"},
@@ -89,6 +91,7 @@ module.exports = [
   {"state": "Tamil Nadu", "year": "2006", "id": "tn2006"},
   {"state": "Tamil Nadu", "year": "2011", "id": "tamilnadu2011"},
   {"state": "Tamil Nadu", "year": "2016", "id": "tamilnadu2016"},
+  {"state": "Tamil Nadu", "year": "2021", "id": "TamilNadu2021"},
   {"state": "Telangana", "year": "2014", "id": "telangana2014"},
   {"state": "Telangana", "year": "2018", "id": "telangana2018"},
   {"state": "Tripura", "year": "2008", "id": "tripura2008"},
@@ -102,5 +105,6 @@ module.exports = [
   {"state": "Uttarakhand", "year": "2017", "id": "uttarakhand2017"},
   {"state": "West Bengal", "year": "2006", "id": "wb2006"},
   {"state": "West Bengal", "year": "2011", "id": "westbengal2011"},
-  {"state": "West Bengal", "year": "2016", "id": "westbengal2016"}
+  {"state": "West Bengal", "year": "2016", "id": "westbengal2016"},
+  {"state": "West Bengal", "year": "2021", "id": "WestBengal2021"}
 ]

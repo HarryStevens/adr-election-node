@@ -1,4 +1,5 @@
 var io = require("indian-ocean"),
+  chalk = require("chalk"),
   _ = require("underscore"),
   request = require("request"),
   cheerio = require("cheerio"),
@@ -37,54 +38,51 @@ _.rateLimit = function(func, rate, async) {
 var indexes_scraped = []; // once we scrape all the indexes, we can call the callback.
 
 module.exports.go = function(object, callback){
-  var data = [];
+  // An empty array for data
+  const data = [];
+  // An empty array for errors
+  const errors = [];
 
-  var state = object.state,
-    year = object.year,
-    id = object.id;
+  const { state, year, id } = object;
 
   fsz.mkdirIf(jz.str.toSlugCase(state), "data");
   fsz.mkdirIf(year, "data/" + jz.str.toSlugCase(state));
 
-  console.log("Scraping candidate details from the " + year + " " + state + " election.");
+  console.log(`Scraping candidate details from the ${chalk.green.bold(year)} ${chalk.blue.bold(state)} election.`);
 
   request("http://myneta.info/" + id + "/index.php?action=summary&subAction=candidates_analyzed&sort=candidate", function(error, response, body){
     if (!error && response.statusCode == 200){
 
-      var $ = cheerio.load(body);
+      const $ = cheerio.load(body);
 
-      var tables = $("table");
+      const tables = $("table");
 
       tables.each(function(table_index, table){
 
         // get the last table, which has the candidates
         if (table_index == tables.length - 1){
 
-          var rows = $(table).find("tr");
-
+          const rows = $(table).find("tr");
           console.log("Rows: ", rows.length);
-
-          var scrape_row_limited = _.rateLimit(scrape_row, 500);
+          const scrapeRowLimited = _.rateLimit(scrapeRow, 500);
 
           rows.each(function(row_index, row){
 
+            // Skip the first two rows
             if (row_index > 1){
-              scrape_row_limited(row_index, row);
+              scrapeRowLimited(row_index, row);
             }
 
           });
 
-          function scrape_row(row_index, row){
+          function scrapeRow(row_index, row){
 
-            var obj = {};
-            obj.state = state;
-            obj.year = year;
-
-            var cells = $(row).find("td");
+            const obj = { state, year };
+            const cells = $(row).find("td");
 
             cells.each(function(cell_index, cell){
 
-              var cell_text = $(cell).text().trim();
+              const cell_text = $(cell).text().trim();
               
               if (cell_index == 1) {
                 obj.candidate_name = cell_text;
@@ -111,16 +109,16 @@ module.exports.go = function(object, callback){
 
               if (!error && response.statusCode == 200){
                 
-                var $ = cheerio.load(body);
+                const $ = cheerio.load(body);
 
                 // get if they won
-                var name_text = $(".main-title").text().trim();
+                const name_text = $(".main-title").text().trim();
                 obj.winner = name_text.indexOf("(Winner)") != -1 ? true : false;
 
                 obj.district = $("#main > div > div.items > a:nth-child(3)").text().trim();
 
                 // more info
-                var columns0 = ["party", "so_do", "age", "address", "email", "phone"]
+                const columns0 = ["party", "so_do", "age", "address", "email", "phone"]
                 $(".grid_2.alpha").each(function(i, d){
                   
                   if (i !== 0){                  
@@ -137,7 +135,7 @@ module.exports.go = function(object, callback){
                 // profession
                 $("p").each(function(i, d){
                   if (i == 0){
-                    var profession_split = $(d).html().split(":");
+                    const profession_split = $(d).html().split(":");
                     
                     obj.profession = profession_split[1] ? profession_split[1].split("<br")[0].split(">")[1] : "";
                     obj.spouse_profession = profession_split[2] ? profession_split[2].replace(/\n/g, "").replace("</b>", "") : "";
@@ -156,13 +154,13 @@ module.exports.go = function(object, callback){
                 if (row_index === rows.length - 1) {
 
                   console.log("\nGot to last candidate. Checking if all candidates have been scraped...");
-                  var attempts = 0;
-                  var interval = setInterval(function(){
+                  let attempts = 0;
+                  const interval = setInterval(function(){
                     attempts++;
-                    var done = jz.arr.sortNumbers(indexes_scraped).every(function(d, i){
+                    const done = jz.arr.sortNumbers(indexes_scraped).every(function(d, i){
                       return i !== 0 ? d - indexes_scraped[i - 1] == 1 : i == 0;
                     });
-                    var tooManyAttempts = attempts > 20;
+                    const tooManyAttempts = attempts > 20;
                     
                     if (done){
                       console.log("All candidates have been scraped.");
@@ -185,7 +183,8 @@ module.exports.go = function(object, callback){
                 }
                 
               } else {
-                console.log("Error scraping " + obj.url);
+                // Try again?
+                scrapeRow(row_index, row);
               }
 
             });
