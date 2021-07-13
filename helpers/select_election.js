@@ -20,7 +20,7 @@ module.exports.select = function(callback){
       }
     ])
     .then(({state}) => {
-      const years = unique(_.where(elections, {state, state}), "year");
+      const years = unique(_.where(elections, { state }), "year");
 
       console.log(`You entered ${chalk.blue.bold(state)}. Which election year?`);
 
