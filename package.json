@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/HindustanTimesLabs/adr-election-node#readme",
   "dependencies": {
+    "chalk": "^4.1.1",
     "cheerio": "^1.0.0-rc.2",
+    "cli-select": "^1.1.2",
     "fsz": "^1.2.1",
     "indian-ocean": "^3.0.2",
     "jeezy": "^1.12.14",

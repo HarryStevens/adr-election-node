@@ -9,6 +9,7 @@ module.exports = [
   {"state": "Assam", "year": "2006", "id": "assam2006"},
   {"state": "Assam", "year": "2011", "id": "assam2011"},
   {"state": "Assam", "year": "2016", "id": "assam2016"},
+  {"state": "Assam", "year": "2021", "id": "Assam2021"},
   {"state": "Bihar", "year": "2005", "id": "bih2005"},
   {"state": "Bihar", "year": "2010", "id": "bih2010"},
   {"state": "Bihar", "year": "2015", "id": "bihar2015"},
